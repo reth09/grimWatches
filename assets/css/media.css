@@ -1,0 +1,30 @@
+@media(min-width:992px) {
+    .offcanvas-lg {
+        position: sticky !important;
+    }
+}
+@media(max-width:992px) {
+    .grim{
+        font-size: 6rem;
+    }
+    .hover-g::after{
+        display: none;
+    }
+    .hover-g:hover{
+        box-shadow: none;
+    }
+}
+@media(max-width:768px) {
+    .carousel-item{
+        height: 320px;
+    }
+
+}
+@media(max-width:576px) {
+    .grim {
+        font-size: 3rem;
+        color: rgb(255, 255, 255);
+        -webkit-text-stroke: 0;
+        font-weight: 300;
+    }
+}

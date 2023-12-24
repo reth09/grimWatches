@@ -1,0 +1,2060 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GRIM & CO</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- icons Awesone -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- media -->
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body class="body" data-bs-theme="dark">
+    <!-- background -->
+    <img src="assets/images/bg-rock-1.png" alt="bg-rock-1" class="bg-rock">
+    <div id="particles-js"></div>
+
+    <!-- header -->
+    <header class="mt-3 position-sticky top-0 z-3">
+        <nav class="navbar container-xxl bg-transparent navbar-expand-lg rounded-lg-pill
+        ">
+            <div class="container-fluid bg-transparent py-2 px-4">
+
+                <a class="navbar-brand fs-3 ls-2 " href="index.html">GRIM</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-evenly flex-wrap" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize active" href="#home1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="#aboutus">about us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="#collection">collection</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="#blogs">blogs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="#gallery">gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="#contact">contact us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize text-white" href="store.html"
+                                target="_blank">STORE</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-3 bg-transparent fs-5" id="store-search" type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light me-3" type="submit">Search</button>
+                    </form>
+
+                    <ul class="navbar-nav mt-4 mt-lg-0">
+                        <li>
+                            <a href="#javascript:void(0);">
+                                <span class="fw-light text-white ls-2 fs-5 " data-bs-toggle="modal"
+                                    data-bs-target="#wishlist-modal">
+                                    <i class="bi pe-1 bi-heart"></i>
+                                    WHISHLIST
+                                </span>
+                            </a>
+                        </li>
+                        <li class="my-3 my-lg-0">
+                            <a href="#cart-off" data-bs-toggle="offcanvas" role="button" aria-controls="cart-off">
+                                <span class="px-lg-4 fw-light text-white ls-2 fs-5">
+                                    <i class="bi pe-1 bi-basket3"></i> CART
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#javascript:void(0);" data-bs-target="#account-modal" data-bs-toggle="modal">
+                                <span class="fw-light text-white ls-2 fs-5 "><i class="bi pe-1 bi-person-circle"></i>
+                                    ACCOUNT
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- wishlist -->
+    <div class="modal fade" id="wishlist-modal" tabindex="-1" aria-labelledby="wish" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+            <div class="modal-content bg-transparent blur-5 border-cst rounded-4">
+                <div class="modal-header border-0 ">
+                    <h1 class="modal-title fs-2 ls-1 fw-light f-lpurple" id="wishlist-modal">WISH-LIST</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body scroll-5 p-4 pt-0">
+                    <h3 class="text-center fw-light h1 f-lblue ls-1 text-uppercase">Your Personal Watch Wishlist</h3>
+
+                    <div class="row my-4">
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">Velocity GT</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : VGT-2022</h4>
+                                <img src="assets/images/car (1)-min.png" alt="" class="img-fluid rounded-top-4">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">TurboX Dual</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : TXGMT-2025</h4>
+                                <img src="assets/images/car (4)-min.png" alt="" class="img-fluid rounded-top-4">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">Emrald Heritage</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : SHA-2024</h4>
+                                <img src="assets/images/car (2)-min.png" alt="" class="img-fluid rounded-top-4">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">CLASSIC ELEGANCE</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : CE-2022</h4>
+                                <img src="assets/images/p (10)-min.png" alt="" class="img-fluid">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">HERITAGE CHRONO</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : HC-2022</h4>
+                                <img src="assets/images/p (11)-min.png" alt="" class="img-fluid">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">ANTIQUE LEGACY</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : AL-2022</h4>
+                                <img src="assets/images/p (13)-min.png" alt="" class="img-fluid">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">GALAXIA EXPLORER</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : GE-2023</h4>
+                                <img src="assets/images/gall (9).png" alt="" class="img-fluid">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">RUBY ROYALE</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : RR - 2023</h4>
+                                <img src="assets/images/p (7)-min.png" alt="" class="img-fluid">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <div class="border-cst rounded-4 px-2">
+                                <h3 class="text-center h2 fw-light f-lpurple">NOVA ACCELERATOR</h3>
+                                <h4 class="text-center h5 fw-light text-info">MODEL : NA-2023</h4>
+                                <img src="assets/images/car (1)-min.png" alt="" class="img-fluid">
+                                <div class="d-flex justify-content-between align-content-center py-3">
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                    <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer border-0 px-4 ">
+                    <button type="button" class="btn btn-outline-light fs-5 px-4 me-2">Order All</button>
+                    <button type="button" class="btn btn-outline-light fs-5 px-4" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- cart -->
+    <div class="offcanvas offcanvas-end bg-transparent blur-5 border-start border-dark-subtle" data-bs-scroll="true"
+        tabindex="-1" id="cart-off" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-1 fw-light ls-2 f-lpurple" id="cart-off">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h2 class="text-uppercase fw-light f-lblue mb-4">Your GRIM Cart : Time to <span
+                    class="text-warning">Shine</span></h2>
+            <div class="d-flex flex-column justify-content-between h-100">
+                <!-- products -->
+                <div class="upper">
+                    <div class="cart-p1 row mx-2 rounded-3 my-4 border-bottom overflow-hidden ">
+                        <div class="col-4 p-0">
+                            <img src="assets/images/car (1)-min.png" alt=""
+                                class="img-fluid my-auto d-block h-100 object-fit-cover">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="fw-light f-lpurple mb-0">Velocity GT</h3>
+                            <p class="fs-5 text-white mb-0">supercar engine collection</p>
+                            <p class="fs-6 text-white mb-0">CASE SIZE : 47 mm</p>
+                            <p class="fs-5 ls-1 text-white mb-0">PRICE : $ 120,000</p>
+                        </div>
+                    </div>
+                    <div class="cart-p1 row mx-2 rounded-3 my-4 border-bottom overflow-hidden ">
+                        <div class="col-4 p-0">
+                            <img src="assets/images/p (11)-min.png" alt=""
+                                class="img-fluid my-auto d-block h-100 object-fit-cover">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="fw-light f-lpurple mb-0">Heritage Chrono</h3>
+                            <p class="fs-5 text-white mb-0">heritage collection</p>
+                            <p class="fs-6 text-white mb-0">CASE SIZE : 40 mm</p>
+                            <p class="fs-5 ls-1 text-white mb-0">PRICE : $ 78,000</p>
+                        </div>
+                    </div>
+                    <div class="cart-p1 row mx-2 rounded-3 my-4 border-bottom overflow-hidden ">
+                        <div class="col-4 p-0">
+                            <img src="assets/images/space-1-min.png" alt=""
+                                class="img-fluid my-auto d-block h-100 object-fit-cover">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="fw-light f-lpurple mb-0">Nebula Voyager</h3>
+                            <p class="fs-5 text-white mb-0">Space Traveller Collection</p>
+                            <p class="fs-6 text-white mb-0">CASE SIZE : 44 mm</p>
+                            <p class="fs-5 ls-1 text-white mb-0">PRICE : $ 20,000</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- checkout -->
+                <div class="lower">
+                    <div class="d-flex justify-content-between align-items-center text-white fs-3 py-1">
+                        <h3 class="mb-0 fw-normal">SUB - TOTAL :</h3>
+                        <p class="mb-0">$ 218,000 <span class="fs-6">INC. Taxes</span></p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center text-white fs-3 py-1">
+                        <h3 class="mb-0 fw-normal">SHIPPING :</h3>
+                        <p class="mb-0">FREE</p>
+                    </div>
+                    <button class="btn btn-outline-light w-100 rounded-0 fs-4 ls-2">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- account -->
+    <div class="modal fade" id="account-modal" tabindex="-1" aria-labelledby="account" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+            <div class="modal-content bg-transparent blur-5 border-cst rounded-4">
+                <div class="modal-header border-0 ">
+                    <h1 class="modal-title fs-2 ls-1 fw-light f-lpurple" id="account-modal">ACCOUNT DETAILS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body scroll-5 p-4 pt-0">
+                    <h3 class="text-center fw-light h1 f-lblue ls-1 text-uppercase">Your Personal Information</h3>
+
+                    
+
+                    <form class="row my-4">
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-fname" class="form-label h3 fw-normal ls-1 f-lpurple">FIRST NAME</label>
+                            <input type="text" class="form-control bg-transparent fs-4 text-white" id="acc-fname">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-lname" class="form-label h3 fw-normal ls-1 f-lpurple">LAST NAME</label>
+                            <input type="text" class="form-control bg-transparent fs-4 text-white" id="acc-lname">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-email" class="form-label h3 fw-normal ls-1 f-lpurple">EMAIL</label>
+                            <input type="email" class="form-control bg-transparent fs-4 text-white" id="acc-email">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-pnumber" class="form-label h3 fw-normal ls-1 f-lpurple">PERSONAL NUMBER</label>
+                            <input type="number" class="form-control bg-transparent fs-4 text-white" id="acc-pnumber">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-onumber" class="form-label h3 fw-normal ls-1 f-lpurple">OFFICE NUMBER</label>
+                            <input type="number" class="form-control bg-transparent fs-4 text-white" id="acc-onumber">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-pass" class="form-label h3 fw-normal ls-1 f-lpurple">ACCOUNT PASSWORD</label>
+                            <input type="password" class="form-control bg-transparent fs-4 text-white" id="acc-pass">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="acc-add1" class="form-label h3 fw-normal ls-1 f-lpurple">HOME ADDRESS</label>
+                            <textarea name="add-1" id="acc-add1" class="form-control bg-transparent fs-4 text-white" rows="3"></textarea>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="acc-add2" class="form-label h3 fw-normal ls-1 f-lpurple">OFFICE ADDRESS</label>
+                            <textarea name="add-2" id="acc-add2" class="form-control bg-transparent fs-4 text-white" rows="3"></textarea>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer border-0 px-4 ">
+                    <button type="button" class="btn btn-outline-light fs-5 px-4 me-2">SAVE CHANGES</button>
+                    <button type="button" class="btn btn-outline-light fs-5 px-4" data-bs-dismiss="modal">DISCARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- login -->
+    <div class="modal fade" id="login" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog ">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="login">Modal title</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <!-- main -->
+    <main class="px-sm-3 px-md-4 px-xxl-0 overflow-hidden">
+        <!-- MAIN PAGE -->
+        <section class="main-page mb-5 position-relative" id="home1">
+
+            <!-- heading -->
+            <h1 class="text-center grim mb-0 fs-sm-2" >GRIM</h1>
+            <p class="text-center head-p" >WATCHES</p>
+
+            <!-- banner -->
+            <div class="container-xxl mx-auto">
+
+                <div id="carouselmain" 
+                    class="carousel slide carousel-cst overflow-hidden rounded-5 mt-lg-5 mb-4" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" collapsed data-bs-interval="3500">
+                            <img src="assets/images/mb-1.webp"
+                                class="d-none d-sm-block img-fluid h-100 rounded-5 object-fit-cover" alt="mb-1">
+                            <img src="assets/images/car (1)-min.png" alt=""
+                                class="w-100 object-fit-cover d-sm-none h-100">
+                        </div>
+                        <div class="carousel-item" data-bs collapsed-interval="3500">
+                            <img src="assets/images/mb-2.webp"
+                                class="d-none d-sm-block img-fluid h-100 rounded-5 object-fit-cover" alt="mb-2">
+                            <img src="assets/images/car (2)-min.png" alt=""
+                                class="w-100 object-fit-cover d-sm-none h-100">
+                        </div>
+                        <div class="carousel-item" data-bs collapsed-interval="3500">
+                            <img src="assets/images/mb-3.webp"
+                                class="d-none d-sm-block img-fluid h-100 rounded-5 object-fit-cover" alt="mb-3">
+                            <img src="assets/images/car (3)-min.png" alt=""
+                                class="w-100 object-fit-cover d-sm-none h-100">
+                        </div>
+                        <div class="carousel-item" data-bs collapsed-interval="3500">
+                            <img src="assets/images/mb-4.webp"
+                                class="d-none d-sm-block img-fluid h-100 rounded-5 object-fit-cover" alt="mb-4">
+                            <img src="assets/images/car (4)-min.png" alt=""
+                                class="w-100 object-fit-cover d-sm-none h-100">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- text -->
+                <h2 class="text-center display-2 f-lpurple" >WE <span class="gold">CRAFT</span> THE BEST WATCHES AROUND
+                    THE
+                    GLOBE.
+                </h2>
+
+                <p class="text-center text-white text-opacity-75 mt-3 fs-2 fw-light f-lblue" >GRIM is a renowned watch
+                    manufacturing company that has gained global recognition for producing some of the finest timepieces
+                    in the world. GRIM watches have earned a loyal customer base and a prestigious reputation in the
+                    luxury
+                    watch industry.
+                </p>
+            </div>
+        </section>
+
+        <!-- ABOUT US -->
+        <section class="about-us pt-md-5 mt-5" id="aboutus">
+
+            <!-- heading -->
+            <h2 class="text-center mb-0 display-1 f-lpurple" >LET US INTRODUCE OURSELVES</h1>
+                <p class="text-center f-lblue fs-2 ls-2 fw-light" >HERE IS WHAT WE DO TO PROVIDE THE FINEST WATCHES
+                    YOU CAN WEAR</p>
+
+                <div class="container-xxl mx-auto mt-md-5">
+                    <div class="row">
+                        <div class="col-xl-6">
+
+                            <div class="hover-g rounded-5 d-flex flex-wrap mb-sm-4 p-3" >
+                                <div class="col-sm-4">
+                                    <img src="assets/images/ab-1-min.png" alt="design"
+                                        class="rounded-5 img-fluid object-fit-cover h-100">
+                                </div>
+                                <div class="col-sm-8 ps-sm-4 mt-3 mt-sm-0">
+                                    <h3 class="display-5 text-warning">UNIQUE DESIGN</h3>
+                                    <p class="fs-4 text-white text-justify">GRIM has assembled a talented and diverse
+                                        team
+                                        of
+                                        designers from various cultural backgrounds and experiences. This international
+                                        design
+                                        team brings a wealth of creativity and a broad range of influences to the table,
+                                        allowing for a rich tapestry of ideas to emerge.</p>
+                                </div>
+                            </div>
+
+                            <div class="hover-g rounded-5 d-flex flex-wrap my-sm-4 p-3" >
+                                <div class="col-sm-4">
+                                    <img src="assets/images/ab-2-min.png" alt="design"
+                                        class="rounded-5 img-fluid h-100 object-fit-cover">
+                                </div>
+                                <div class="col-sm-8 ps-sm-4 mt-3 mt-sm-0">
+                                    <h3 class="display-5 text-warning">CRAFTMANSHIP</h3>
+                                    <p class="fs-4 text-white text-justify">The brand's skilled craftsmen
+                                        meticulously
+                                        handcraft
+                                        each watch, combining traditional techniques with modern technology. This fusion
+                                        of
+                                        artistry ensures that every timepiece becomes a wearable masterpiece, displaying
+                                        a
+                                        level
+                                        of intricacy that sets it apart from mass-produced watches.</p>
+                                </div>
+                            </div>
+
+                            <div class="hover-g rounded-5 d-flex flex-wrap mt-sm-4 p-3" >
+                                <div class="col-sm-4">
+                                    <img src="assets/images/ab-3-min.png" alt="design"
+                                        class="rounded-5 img-fluid h-100 object-fit-cover">
+                                </div>
+                                <div class="col-sm-8 ps-sm-4 mt-3 mt-sm-0">
+                                    <h3 class="display-5 text-warning">PACKAGING</h3>
+                                    <p class="fs-4 text-white text-justify">The luxury and delicacy of our watches
+                                        extend
+                                        beyond
+                                        the timepiece itself; it is an experience that begins the moment you hold the
+                                        exquisite
+                                        wooden box in your hands. From the first glance to the unveiling of your watch,
+                                        our
+                                        premium packaging is designed to evoke a sense of wonder and delight.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div
+                            class="col-xl-6 about-right d-flex justify-content-center align-items-center p-3 p-sm-5 flex-column">
+
+                            <div id="carouselExampleSlidesOnly" 
+                                class="carousel slide about-slider rounded-5 overflow-hidden container-xxl"
+                                data-bs-ride="carousel">
+                                <div class="carousel-inner">
+
+                                    <div class="carousel-item active" data-bs-interval="3000">
+                                        <img src="assets/images/abr2 (5)-min.png" class="d-block w-100" alt="...">
+                                        <h2 class="display-2 text-center text-white my-4">CUSTOMISATION</h2>
+                                    </div>
+
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="assets/images/abr2-min.png" class="d-block w-100" alt="...">
+                                        <h2 class="display-2 text-center text-white my-4">LIMITED EDITION</h2>
+                                    </div>
+
+                                    <div class="carousel-item" data-bs-interval="3000">
+                                        <img src="assets/images/abr2 (4)-min.png" class="d-block w-100" alt="...">
+                                        <h2 class="display-2 text-center text-white my-4">CUSTOMER RELATION</h2>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <h3 class="display-6 mt-4 text-white px-2 p-sm-0" >"Time Transformed: Unveil Your Elegance,
+                                Embrace Your
+                                Distinction. GRIM Watches - Where Every Second is a <span
+                                    class="text-warning">Masterpiece.</span>"</h3>
+
+                        </div>
+                    </div>
+                </div>
+
+        </section>
+
+        <!-- PRODUCT SECTION -->
+        <section class="product pb-2 " id="collection">
+
+            <!-- heading -->
+            <h2 class="text-center mb-0 display-1 colec-h f-lpurple" >COLLECTION</h2>
+            <p class="text-center f-lblue fs-1 fw-lighter ls-2 mb-sm-5" >EXPLORING TIME IN UNCHARTED REALMS</p>
+
+            <!-- 1st row -->
+            <h3 class="text-center text-primary-emphasis display-3 spc-tra my-2 my-sm-5" >SPACE TRAVELLER</h3>
+
+            <div class="container-xxl ">
+
+                <div class="row" >
+
+                    <!-- space-1 -->
+                    <div class="col-xl-3 col-sm-6 mb-3 mb-sm-4 mb-xl-0" >
+
+                        <div class="prod rounded-4 border-opacity-25 position-relative h-100" >
+
+                            <!-- front -->
+                            <div class="pro-front">
+                                <h2 class="text-center prod-h fw-light text-uppercase fs-1 pt-3"> Nebula
+                                    Voyager</h2>
+                                <img src="assets/images/space-1-min.png" alt="" class="img-fluid p-3">
+
+                                <div class="des text-white fs-4 px-2 text-center">
+                                    <h4 class="text-success-subtle fs-3 fw-normal text-uppercase text-primary">Model :
+                                        NH-2023</h4>
+
+                                    <p class="">Discover the mysteries of the cosmos with the Nebula Horizon
+                                        Chronograph. An
+                                        elegant fusion of art and precision.</p>
+
+                                    <p class=" text-opacity-75 w-75 mx-auto mb-0 pb-3"><span class="text-warning ">
+                                            Limited
+                                            Edition</span>: Only <span class="text-danger">750</span> Pieces Available
+                                        Worldwide
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- hover -->
+                            <div
+                                class="pro-more position-absolute d-flex flex-column justify-content-evenly rounded-4 top-0 start-0 h-100 w-100 p-3 text-white fs-5">
+                                <h2 class="text-center text-primary fw-light fs-1">Nebula Voyager</h2>
+                                <h3 class="text-center text-warning text-uppercase fw-light fs-3">Model : NH-2023</h3>
+
+                                <p class="fs-3 ">KEY FEATURES :</p>
+                                <ul class="ps-4 ">
+                                    <li>Swiss Quartz Chronograph Movement</li>
+                                    <li>Nebula-Inspired Dial with Luminescence</li>
+                                    <li>Date Display and Sub-Dials for Precise Timing</li>
+                                    <li>Scratch-Resistant Sapphire Crystal</li>
+                                    <li>Genuine Leather Strap with Embossed Nebula Motif</li>
+                                </ul>
+
+                                <button class="btn btn-outline-info fs-5 w-100 rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#prod-1"> SHOW MORE </button>
+
+                                <button class="btn btn-outline-info w-100 my-4 fs-5 rounded-pill">ADD TO CART</button>
+
+                                <a href="assets/images/space-1.png "
+                                    class="btn btn-outline-info w-100 fs-5 rounded-pill"
+                                    download="NEBULA VOYAGER">DOWNLOAD IMAGE</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="prod-1" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content prod-modal">
+                                <button class="btn-close end-0 position-fixed mt-4 me-4"
+                                    data-bs-dismiss="modal"></button>
+                                <div class="modal-header justify-content-center border-0">
+                                    <h2 class="modal-title text-warning text-opacity-75  display-2 ">NEBULA VOYAGER</h2>
+                                </div>
+
+                                <div class="modal-body ">
+
+
+                                    <img src="assets/images/space-1-min.png" alt="" class=" object-fit-contain m-auto">
+
+                                    <a href="assets/images/space-1-min.png" download="Nebula Voyager"
+                                        class="btn btn-outline-info  w-100 my-3">Download Image</a>
+
+                                    <div class="text-white">
+
+                                        <h3 class="fw-light text-info">Design Inspiration:</h3>
+                                        <p class="text-justify fs-4 mb-4">The Galaxia Explorer Dive Watch features a
+                                            cosmic blue dial, capturing the enchanting depths of space. The luminescent
+                                            indices and hands ensure readability in various environments. The stainless
+                                            steel case and bracelet embody both strength and elegance, just like a space
+                                            traveler's journey.
+                                        </p>
+
+                                        <h3 class="fw-normal fs-3 text-danger">Key Features:</h3>
+                                        <ul class="fs-3 ">
+                                            <li>Swiss Quartz Movement with Reliable Date Function</li>
+                                            <li>Luminescent Cosmic Blue Dial and Hands for Low-Light Visibility</li>
+                                            <li>Unidirectional Rotating Bezel for Dive Timing</li>
+                                            <li>Stainless Steel Bracelet with Secure Clasp </li>
+                                            <li>Helium Escape Valve for Deep Dives</li>
+                                        </ul>
+
+                                        <h3 class="fw-light text-warning">Crafting Process:</h3>
+                                        <p class="text-justify fs-4 mb-4">Our watchmakers meticulously assemble each
+                                            movement, calibrating it for precision timekeeping. The cosmic dial is a
+                                            result of advanced printing techniques and luminescent technology.
+                                        </p>
+
+                                        <h3 class="fw-light text-info">Limited Edition:</h3>
+                                        <p class="text-justify fs-4 mb-4">
+                                            The Galaxia Explorer Dive Watch is a limited edition timepiece, a symbol of
+                                            exploration and endurance. Each watch is accompanied by a certificate of
+                                            authenticity.
+
+                                        </p>
+                                        <h4 class="text-info mb-0 pe-3 fs-3">PRICE: 18999$</h4>
+
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer border-0">
+                                    <button class="btn btn-outline-info fs-5  ">ADD TO CART</button>
+                                    <button type="button" class=" btn btn-outline-danger fs-5  "
+                                        data-bs-dismiss="modal">CLOSE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- space-2 -->
+                    <div class="col-xl-3 col-sm-6 mb-3 mb-sm-4 mb-xl-0" >
+
+                        <div class="prod rounded-4 border-opacity-25 position-relative h-100">
+
+                            <!-- front -->
+                            <div class="pro-front">
+                                <h2 class="text-center prod-h fw-light text-uppercase fs-1 pt-3"> Celestial Horizon</h2>
+                                <img src="assets/images/space-2-min.png" alt="" class="img-fluid p-3">
+
+                                <div class="des text-white fs-4 px-2 text-center">
+                                    <h4 class="text-success-subtle fs-3 fw-normal text-uppercase text-primary">Model :
+                                        CH-2023</h4>
+
+                                    <p class="">Journey through the stars with the Celestial Voyager Automatic, a
+                                        timepiece
+                                        that encapsulates the majesty of the universe.
+                                    </p>
+
+                                    <p class=" text-opacity-75 w-75 mx-auto mb-0 pb-3"><span class="text-warning ">
+                                            Limited
+                                            Edition</span>: A Tribute to <span class="text-primary">Celestial
+                                            Pioneers</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- hover -->
+                            <div
+                                class="pro-more position-absolute d-flex flex-column justify-content-evenly rounded-4 top-0 start-0 h-100 w-100 p-3 text-white fs-5">
+                                <h2 class="text-center text-primary fw-light fs-1">Celestial Horizon</h2>
+                                <h3 class="text-center text-warning text-uppercase fw-light fs-3">Model : CH-2023</h3>
+
+                                <p class="fs-3 ">KEY FEATURES :</p>
+                                <ul class="ps-4 ">
+                                    <li>Swiss Automatic Movement for Reliable Timekeeping</li>
+                                    <li>Luminescent Hands and Markers for Low-Light Visibility</li>
+                                    <li>Exhibition Case Back Revealing the Intricate Movement</li>
+                                    <li>Adjustable Astral Blue Leather Strap for Comfort</li>
+                                    <li>Each Watch Bears a Unique Serial Number</li>
+                                </ul>
+
+                                <button class="btn btn-outline-info fs-5 w-100 rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#prod-2"> SHOW MORE </button>
+
+                                <button class="btn btn-outline-info w-100 my-4 fs-5 rounded-pill">ADD TO CART</button>
+
+                                <a href="assets/images/space-2-min.png "
+                                    class="btn btn-outline-info w-100 fs-5 rounded-pill"
+                                    download="NEBULA VOYAGER">DOWNLOAD
+                                    IMAGE</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="prod-2" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content prod-modal">
+                                <button class="btn-close end-0 position-fixed mt-4 me-4"
+                                    data-bs-dismiss="modal"></button>
+                                <div class="modal-header justify-content-center border-0">
+                                    <h2 class="modal-title text-danger display-2 ">CELESTIAL HORIZON</h2>
+                                </div>
+
+                                <div class="modal-body ">
+
+                                    <img src="assets/images/space-2-min.png" alt="" class="object-fit-contain m-auto">
+
+                                    <a href="assets/images/space-2-min.png" class="btn btn-outline-info my-3 w-100"
+                                        download="celestial Horizon">Download Image</a>
+
+                                    <div class="pe-5 text-white">
+
+                                        <h3 class="fw-light text-info">Design Inspiration:</h3>
+                                        <p class="text-justify fs-4 mb-4">Journey through the stars with the Celestial
+                                            Voyager Automatic, a timepiece that encapsulates the majesty of the
+                                            universe. Crafted with precision and artistry, this watch is a tribute to
+                                            those who dare to explore the cosmos.
+                                        </p>
+
+                                        <h3 class="fw-normal fs-3 text-danger">Key Features:</h3>
+                                        <ul class="fs-3 ">
+                                            <li>Swiss Automatic Movement for Reliable Timekeeping</li>
+                                            <li>Luminescent Hands and Markers for Low-Light Visibility</li>
+                                            <li>Exhibition Case Back Revealing the Intricate Movement</li>
+                                            <li>Adjustable Astral Blue Leather Strap for Comfort</li>
+                                            <li>Each Watch Bears a Unique Serial Number</li>
+                                        </ul>
+
+                                        <h3 class="fw-light text-warning">Crafting Process:</h3>
+                                        <p class="text-justify fs-4 mb-4">Our master watchmakers meticulously assemble
+                                            each movement, ensuring precision and reliability. The celestial details on
+                                            the dial are achieved through a combination of intricate engraving and
+                                            luminescent technology.
+                                        </p>
+
+                                        <h3 class="fw-light text-info">Limited Edition:</h3>
+                                        <p class="text-justify fs-4 mb-4">The Celestial Voyager Automatic is a limited
+                                            edition masterpiece, a symbol of exploration with a worldwide production
+                                            limit. Every watch is accompanied by a certificate of authenticity.
+
+
+                                        </p>
+
+                                        <h4 class="text-info mb-0 pe-3 fs-3">PRICE: 28999$</h4>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="modal-footer border-0">
+                                    <button class="btn btn-outline-info fs-5  ">ADD TO CART</button>
+                                    <button type="button" class="me-4 btn btn-outline-danger fs-5  "
+                                        data-bs-dismiss="modal">CLOSE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- space-3 -->
+                    <div class="col-xl-3 col-sm-6 mb-3 mb-sm-0" >
+
+                        <div class="prod rounded-4 border-opacity-25 position-relative h-100">
+
+                            <!-- front -->
+                            <div class="pro-front">
+                                <h2 class="text-center prod-h fw-light text-uppercase fs-1 pt-3">Stellar Odyssey</h2>
+                                <img src="assets/images/space-3-min.png" alt="" class="img-fluid p-3">
+
+                                <div class="des text-white fs-4 px-2 text-center">
+                                    <h4 class="text-success-subtle fs-3 fw-normal text-uppercase text-primary">Model :
+                                        SO-2023</h4>
+
+                                    <p class="">Embark on a cosmic adventure with the Stellar Odyssey GMT, a watch
+                                        designed
+                                        for modern explorers of both land and space.
+                                    </p>
+
+                                    <p class=" text-opacity-75 w-75 mx-auto mb-0 pb-3"><span class="text-warning ">
+                                            Limited
+                                            Edition</span>: Only <span class="text-danger">350</span> Pieces Available
+                                        Worldwide
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- hover -->
+                            <div
+                                class="pro-more position-absolute d-flex flex-column justify-content-evenly rounded-4 top-0 start-0 h-100 w-100 p-3 text-white fs-5">
+                                <h2 class="text-center text-primary fw-light fs-1">Stellar Odyssey</h2>
+                                <h3 class="text-center text-warning text-uppercase fw-light fs-3">Model : SO-2023</h3>
+
+                                <p class="fs-3 ">KEY FEATURES :</p>
+                                <ul class="ps-4 ">
+                                    <li>Swiss GMT Movement for Accurate Dual Time Zones</li>
+                                    <li>Luminescent Celestial Dial for Enhanced Visibility</li>
+                                    <li>Rotating 24-Hour Bezel for Second Time Zone Tracking</li>
+                                    <li>Ceramic Bracelet for Modern Elegance</li>
+                                    <li>Limited Edition Engravings on the Case Back</li>
+                                </ul>
+
+                                <button class="btn btn-outline-info fs-5 w-100 rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#prod-3"> SHOW MORE </button>
+
+                                <button class="btn btn-outline-info w-100 my-4 fs-5 rounded-pill">ADD TO CART</button>
+
+                                <a href="assets/images/space-3-min.png "
+                                    class="btn btn-outline-info w-100 fs-5 rounded-pill"
+                                    download="NEBULA VOYAGER">DOWNLOAD
+                                    IMAGE</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="prod-3" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content prod-modal">
+                                <button class="btn-close end-0 position-fixed mt-4 me-4"
+                                    data-bs-dismiss="modal"></button>
+                                <div class="modal-header justify-content-center border-0">
+                                    <h2 class="modal-title text-info display-2 ">STELLAR ODYSSEY</h2>
+                                </div>
+
+                                <div class="modal-body ">
+
+                                    <img src="assets/images/space-3-min.png" alt="space-3"
+                                        class=" object-fit-contain m-auto">
+
+                                    <a href="assets/images/space-3-min.png" class="btn btn-outline-info w-100 my-3 fs-4"
+                                        download="Stellar Odyssey">Download Image</a>
+
+                                    <div class="pe-5 text-white">
+
+                                        <h3 class="fw-light text-info">Design Inspiration:</h3>
+                                        <p class="text-justify fs-4 mb-4">The Stellar Odyssey GMT features a
+                                            celestial-inspired dial, a visual representation of the cosmic wonders that
+                                            inspire explorers. The polished black ceramic case symbolizes the mysteries
+                                            of the cosmos, while the dual-time zone function reflects the global nature
+                                            of space travel.
+                                        </p>
+
+                                        <h3 class="fw-normal fs-3 text-danger">Key Features:</h3>
+                                        <ul class="fs-3 ">
+                                            <li>Swiss GMT Movement for Accurate Dual Time Zones</li>
+                                            <li>Luminescent Celestial Dial for Enhanced Visibility</li>
+                                            <li>Rotating 24-Hour Bezel for Second Time Zone Tracking</li>
+                                            <li>Ceramic Bracelet for Modern Elegance</li>
+                                            <li>Limited Edition Engravings on the Case Back</li>
+                                        </ul>
+
+                                        <h3 class="fw-light text-warning">Crafting Process:</h3>
+                                        <p class="text-justify fs-4 mb-4">Our artisans expertly craft the ceramic
+                                            components
+                                            through a meticulous process of shaping, firing, and polishing. The
+                                            celestial
+                                            dial is created using a combination of printing and luminescent techniques.
+                                        </p>
+
+                                        <h3 class="fw-light text-info">Limited Edition:</h3>
+                                        <p class="text-justify fs-4 mb-4">The Stellar Odyssey GMT is a limited edition
+                                            masterpiece, celebrating the spirit of exploration. Each watch is
+                                            individually
+                                            numbered and comes with a certificate of authenticity.
+                                        </p>
+                                        <h4 class="text-info mb-0 pe-3 fs-3">PRICE: 32999$</h4>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="modal-footer border-0">
+                                    <button class="btn btn-outline-info fs-5  ">ADD TO CART</button>
+                                    <button type="button" class="me-4 btn btn-outline-danger fs-5  "
+                                        data-bs-dismiss="modal">CLOSE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- space-4 -->
+                    <div class="col-xl-3 col-sm-6" >
+
+                        <div class="prod rounded-4 border-opacity-25 position-relative h-100">
+
+                            <!-- front -->
+                            <div class="pro-front">
+                                <h2 class="text-center prod-h fw-light text-uppercase fs-1 pt-3">Galaxia Explorer</h2>
+                                <img src="assets/images/space-4-min.png" alt="" class="img-fluid p-3">
+
+                                <div class="des text-white fs-4 px-2 text-center">
+                                    <h4 class="text-success-subtle fs-3 fw-normal text-uppercase text-primary">Model :
+                                        GE-2023</h4>
+
+                                    <p class="">A robust timepiece designed for terrestrial exploration alike. This
+                                        diver's
+                                        watch combines rugged durability with aesthetics.
+
+                                    </p>
+
+                                    <p class=" text-opacity-75 w-75 mx-auto mb-0 pb-3"><span class="text-warning ">
+                                            Limited
+                                            Edition</span>: A Tribute to the <span class="text-primary">Explorers of the
+                                            Cosmos</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- hover -->
+                            <div
+                                class="pro-more position-absolute d-flex flex-column justify-content-evenly rounded-4 top-0 start-0 h-100 w-100 p-3 text-white fs-5">
+                                <h2 class="text-center text-primary fw-light fs-1">Galaxia Explorer</h2>
+                                <h3 class="text-center text-warning text-uppercase fw-light fs-3">Model : NH-2023</h3>
+
+                                <p class="fs-3 ">KEY FEATURES :</p>
+                                <ul class="ps-4 ">
+                                    <li>Swiss Quartz Movement with Reliable Date Function</li>
+                                    <li>Luminescent Cosmic Blue Dial and Hands for Low-Light Visibility</li>
+                                    <li>Unidirectional Rotating Bezel for Dive Timing</li>
+                                    <li>Stainless Steel Bracelet with Secure Clasp</li>
+                                    <li>Helium Escape Valve for Deep Dives</li>
+                                </ul>
+
+                                <button class="btn btn-outline-info fs-5 w-100 rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#prod-4"> SHOW MORE </button>
+
+                                <button class="btn btn-outline-info w-100 my-4 fs-5 rounded-pill">ADD TO CART</button>
+
+                                <a href="assets/images/space-4-min.png "
+                                    class="btn btn-outline-info w-100 fs-5 rounded-pill"
+                                    download="Galaxia Explorer">DOWNLOAD IMAGE</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="prod-4" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content prod-modal">
+                                <button class="btn-close end-0 position-fixed mt-4 me-4"
+                                    data-bs-dismiss="modal"></button>
+                                <div class="modal-header justify-content-center border-0">
+                                    <h2 class="modal-title text-white text-opacity-75  display-2 ">GALAXIA EXPLORER</h2>
+                                </div>
+
+                                <div class="modal-body ">
+
+                                    <img src="assets/images/space-4-min.png" alt="space-3"
+                                        class=" object-fit-contain m-auto">
+
+                                    <a href="assets/images/space-4-min.png" class="btn btn-outline-info w-100 my-3 fs-4"
+                                        download="Stellar Odyssey">Download Image</a>
+
+                                    <div class="pe-5 text-white">
+
+                                        <h3 class="fw-light text-info">Design Inspiration:</h3>
+                                        <p class="text-justify fs-4 mb-4">The mesmerizing patterns of nebulae serve as
+                                            the
+                                            foundation for this watch's captivating dial. Each detail echoes the
+                                            swirling
+                                            clouds of celestial wonders. The brushed stainless steel case mimics the
+                                            gleam
+                                            of starlight against the darkness of space.
+
+                                        </p>
+
+                                        <h3 class="fw-normal fs-3 text-danger">Key Features:</h3>
+                                        <ul class="fs-3 ">
+                                            <li>Swiss Quartz Movement with Reliable Date Function</li>
+                                            <li>Luminescent Cosmic Blue Dial and Hands for Low-Light Visibility</li>
+                                            <li>Unidirectional Rotating Bezel for Dive Timing</li>
+                                            <li>Stainless Steel Bracelet with Secure Clasp</li>
+                                            <li>Helium Escape Valve for Deep Dives</li>
+                                        </ul>
+
+                                        <h3 class="fw-light text-warning">Crafting Process:</h3>
+                                        <p class="text-justify fs-4 mb-4">Our skilled artisans painstakingly recreate
+                                            the
+                                            intricate patterns of nebulae using a combination of hand-painted techniques
+                                            and
+                                            precision printing. The stainless steel case is meticulously brushed to
+                                            achieve
+                                            a unique celestial texture.
+
+                                        </p>
+
+                                        <h3 class="fw-light text-info">Limited Edition:</h3>
+                                        <p class="text-justify fs-4 mb-4">The Nebula Horizon Chronograph is a limited
+                                            edition masterpiece, with only 750 pieces available worldwide. Each watch is
+                                            individually numbered to ensure its authenticity and exclusivity.
+                                        </p>
+                                        <h4 class="text-info mb-0 pe-3 fs-3">PRICE: 40999$</h4>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="modal-footer border-0">
+                                    <button class="btn btn-outline-info fs-5  ">ADD TO CART</button>
+                                    <button type="button" class="me-4 btn btn-outline-danger fs-5  "
+                                        data-bs-dismiss="modal">CLOSE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- 2nd row -->
+            <h3 class="text-center text-primary-emphasis display-3 spc-tra my-3 my-sm-5" >CAR ENTHUSIASTS</h3>
+
+            <div class="container-xxl ">
+
+                <div class="row">
+
+                    <!-- hypercar-1 -->
+                    <div class="col-xl-3 col-sm-6 mb-3 mb-sm-4 mb-xl-0" >
+
+                        <div class="prod rounded-4 border-opacity-25 position-relative h-100">
+
+                            <!-- front -->
+                            <div class="pro-front">
+                                <h2 class="text-center prod-h fw-light text-uppercase fs-1 pt-3">Velocity GT</h2>
+                                <img src="assets/images/car (1)-min.png" alt="" class="img-fluid p-3">
+
+                                <div class="des text-white fs-4 px-2 text-center">
+                                    <h4 class="text-success-subtle fs-3 fw-normal text-uppercase text-primary">Model :
+                                        VGT-2022</h4>
+
+                                    <p class="">Rev up your style with the Velocity GT Chronograph, a timepiece that
+                                        embodies the speed and precision of hypercars.
+                                    </p>
+
+                                    <p class=" text-opacity-75 w-75 mx-auto mb-0 pb-3"><span class="text-warning ">
+                                            Limited
+                                            Edition</span>: Only <span class="text-danger">50</span> Pieces Available
+                                        Worldwide
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- hover -->
+                            <div
+                                class="pro-more position-absolute d-flex flex-column justify-content-evenly rounded-4 top-0 start-0 h-100 w-100 p-3 text-white fs-5">
+                                <h2 class="text-center text-primary fw-light fs-1">Velocity GT</h2>
+                                <h3 class="text-center text-warning text-uppercase fw-light fs-3">Model :
+                                    VGT-2022</h3>
+
+                                <p class="fs-3 ">KEY FEATURES :</p>
+                                <ul class="ps-4 ">
+                                    <li>Swiss Quartz Chronograph Movement</li>
+                                    <li>Tachymeter Bezel for Speed Measurement</li>
+                                    <li>Sub-Dials for Precise Timing</li>
+                                    <li>Sapphire Crystal with Anti-Reflective Coating</li>
+                                    <li>Black Carbon Fiber Strap for Ultimate Comfort
+                                    </li>
+                                </ul>
+
+                                <button class="btn btn-outline-info fs-5 w-100 rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#prod-5"> SHOW MORE </button>
+
+                                <button class="btn btn-outline-info w-100 my-4 fs-5 rounded-pill">ADD TO CART</button>
+
+                                <a href="assets/images/car (1)-min.png "
+                                    class="btn btn-outline-info w-100 fs-5 rounded-pill" download="velocity gt">DOWNLOAD
+                                    IMAGE</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="prod-5" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content prod-modal">
+                                <button class="btn-close end-0 position-fixed mt-4 me-4"
+                                    data-bs-dismiss="modal"></button>
+                                <div class="modal-header justify-content-center border-0">
+                                    <h2 class="modal-title prod-h  display-2 ">Velocity GT</h2>
+                                </div>
+
+                                <div class="modal-body ">
+
+
+                                    <img src="assets/images/car (1)-min.png" alt="" class=" object-fit-contain m-auto">
+
+                                    <a href="assets/images/car (1)-min.png" download="Nebula Voyager"
+                                        class="btn btn-outline-info  w-100 my-3">Download Image</a>
+
+                                    <div class="text-white">
+
+                                        <h3 class="fw-light text-info">Design Inspiration:</h3>
+                                        <p class="text-justify fs-4 mb-4">The TurboX Dual Time GMT draws inspiration
+                                            from
+                                            the dynamic lines, turbocharged engines, and global reach of hypercars. The
+                                            GMT
+                                            function reflects the high-paced lifestyles of those who seek adventure.
+
+                                        </p>
+
+                                        <h3 class="fw-normal fs-3 text-danger">Key Features:</h3>
+                                        <ul class="fs-3 ">
+                                            <li>Swiss Quartz Movement with Reliable Date Function</li>
+                                            <li>Luminescent Cosmic Blue Dial and Hands for Low-Light Visibility</li>
+                                            <li>Unidirectional Rotating Bezel for Dive Timing</li>
+                                            <li>Stainless Steel Bracelet with Secure Clasp </li>
+                                            <li>Helium Escape Valve for Deep Dives</li>
+                                        </ul>
+
+                                        <h3 class="fw-light text-warning">Crafting Process:</h3>
+                                        <p class="text-justify fs-4 mb-4">Expertly crafted, each TurboX Dual Time GMT
+                                            undergoes rigorous testing to ensure accurate timekeeping and functionality.
+                                            The
+                                            durable stainless steel construction ensures resilience in every journey.
+
+                                        </p>
+
+                                        <h3 class="fw-light text-info">Limited Edition:</h3>
+                                        <p class="text-justify fs-4 mb-4">
+                                            This timepiece belongs to a limited edition release, with only 500 pieces
+                                            available globally. Each watch is accompanied by a certificate of
+                                            authenticity.
+
+
+                                        </p>
+                                        <h4 class="text-info mb-0 pe-3 fs-3">PRICE: 78999$</h4>
+
+                                    </div>
+
+                                </div>
+                                <div class="modal-footer border-0">
+                                    <button class="btn btn-outline-info fs-5  ">ADD TO CART</button>
+                                    <button type="button" class=" btn btn-outline-danger fs-5  "
+                                        data-bs-dismiss="modal">CLOSE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- hypercar-2 -->
+                    <div class="col-xl-3 col-sm-6 mb-3 mb-sm-4 mb-xl-0" >
+
+                        <div class="prod rounded-4 border-opacity-25 position-relative h-100">
+
+                            <!-- front -->
+                            <div class="pro-front">
+                                <h2 class="text-center prod-h fw-light text-uppercase fs-1 pt-3">NitroX Tourbillon</h2>
+                                <img src="assets/images/car (3)-min.png" alt="" class="img-fluid p-3">
+
+                                <div class="des text-white fs-4 px-2 text-center">
+                                    <h4 class="text-success-subtle fs-3 fw-normal text-uppercase text-primary">Model :
+                                        NXTL-2023</h4>
+
+                                    <p class="">Introducing the NitroX Tourbillon Limited Edition - a watch that
+                                        captures
+                                        the essence of hypercars in a luxurious timepiece.
+
+                                    </p>
+
+                                    <p class=" text-opacity-75 w-75 mx-auto mb-0 pb-3"><span class="text-warning ">
+                                            Limited
+                                            Edition</span>: A Tribute to <span class="text-primary">Hypercar
+                                            Engineers</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- hover -->
+                            <div
+                                class="pro-more position-absolute d-flex flex-column justify-content-evenly rounded-4 top-0 start-0 h-100 w-100 p-3 text-white fs-5">
+                                <h2 class="text-center text-primary fw-light fs-1">NitroX Tourbillon</h2>
+                                <h3 class="text-center text-warning text-uppercase fw-light fs-3">Model : NXTL-2023</h3>
+
+                                <p class="fs-3 ">KEY FEATURES :</p>
+                                <ul class="ps-4 ">
+                                    <li>Swiss Manual-Wind Tourbillon Movement</li>
+                                    <li>Skeleton Dial with Carbon Fiber Accents</li>
+                                    <li>Exhibition Case Back Showcasing the Tourbillon</li>
+                                    <li>Sapphire Crystal with Anti-Reflective Coating</li>
+                                    <li>Black Leather Strap with Perforated Details</li>
+                                </ul>
+
+                                <button class="btn btn-outline-info fs-5 w-100 rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#prod-6"> SHOW MORE </button>
+
+                                <button class="btn btn-outline-info w-100 my-4 fs-5 rounded-pill">ADD TO CART</button>
+
+                                <a href="assets/images/car (3)-min.png "
+                                    class="btn btn-outline-info w-100 fs-5 rounded-pill"
+                                    download="NEBULA VOYAGER">DOWNLOAD
+                                    IMAGE</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="prod-6" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content prod-modal">
+                                <button class="btn-close end-0 position-fixed mt-4 me-4"
+                                    data-bs-dismiss="modal"></button>
+                                <div class="modal-header justify-content-center border-0">
+                                    <h2 class="modal-title text-white text-opacity-75 display-2 ">NitroX Tourbillon</h2>
+                                </div>
+
+                                <div class="modal-body ">
+
+                                    <img src="assets/images/car (3)-min.png" alt="" class="object-fit-contain m-auto">
+
+                                    <a href="assets/images/car (3)-min.png" class="btn btn-outline-info my-3 w-100"
+                                        download="celestial Horizon">Download Image</a>
+
+                                    <div class="pe-5 text-white">
+
+                                        <h3 class="fw-light text-info">Design Inspiration:</h3>
+                                        <p class="text-justify fs-4 mb-4">Introducing the NitroX Tourbillon Limited - a
+                                            watch that captures the essence of hypercars in a luxurious timepiece. The
+                                            intricate dial design resembles the dynamic lines of a hypercar's body,
+                                            while
+                                            the visible tourbillon adds a touch of mechanical marvel.
+                                        </p>
+
+                                        <h3 class="fw-normal fs-3 text-danger">Key Features:</h3>
+                                        <ul class="fs-3 ">
+                                            <li>Swiss Manual-Wind Tourbillon Movement</li>
+                                            <li>Skeleton Dial with Carbon Fiber Accents</li>
+                                            <li>Exhibition Case Back Showcasing the Tourbillon</li>
+                                            <li>Sapphire Crystal with Anti-Reflective Coating</li>
+                                            <li>Black Leather Strap with Perforated Details</li>
+                                        </ul>
+
+                                        <h3 class="fw-light text-warning">Crafting Process:</h3>
+                                        <p class="text-justify fs-4 mb-4">Crafted with unparalleled artistry, each
+                                            NitroX
+                                            Tourbillon is meticulously assembled by master watchmakers. The intricate
+                                            skeleton dial is painstakingly crafted to reveal the beauty of the movement
+                                            within.
+
+                                        </p>
+
+                                        <h3 class="fw-light text-info">Limited Edition:</h3>
+                                        <p class="text-justify fs-4 mb-4">Experience the fusion of horology and hypercar
+                                            design with the NitroX Tourbillon Limited Edition - a testament to
+                                            engineering
+                                            excellence.
+                                        </p>
+
+                                        <h4 class="text-info mb-0 pe-3 fs-3">PRICE: 18999$</h4>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="modal-footer border-0">
+                                    <button class="btn btn-outline-info fs-5  ">ADD TO CART</button>
+                                    <button type="button" class="me-4 btn btn-outline-danger fs-5  "
+                                        data-bs-dismiss="modal">CLOSE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- hypercar-3 -->
+                    <div class="col-xl-3 col-sm-6 mb-3 mb-sm-0" >
+
+                        <div class="prod rounded-4 border-opacity-25 position-relative h-100">
+
+                            <!-- front -->
+                            <div class="pro-front">
+                                <h2 class="text-center prod-h fw-light text-uppercase fs-1 pt-3">Emrald Heritage</h2>
+                                <img src="assets/images/car (2)-min.png" alt="" class="img-fluid p-3">
+
+                                <div class="des text-white fs-4 px-2 text-center">
+                                    <h4 class="text-success-subtle fs-3 fw-normal text-uppercase text-primary">Model :
+                                        SHA-2024</h4>
+
+                                    <p class="">Unleash the spirit of supercars with the Supercar Heritage Automatic - a
+                                        homage to the iconic designs of automotive legends.
+
+                                    </p>
+
+                                    <p class=" text-opacity-75 w-75 mx-auto mb-0 pb-3"><span class="text-warning ">
+                                            Limited
+                                            Edition</span>: Only <span class="text-danger">70</span> Pieces Available
+                                        Worldwide
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- hover -->
+                            <div
+                                class="pro-more position-absolute d-flex flex-column justify-content-evenly rounded-4 top-0 start-0 h-100 w-100 p-3 text-white fs-5">
+                                <h2 class="text-center text-primary fw-light fs-1">Emrald Heritage</h2>
+                                <h3 class="text-center text-warning text-uppercase fw-light fs-3">Model : SHA-2024</h3>
+
+                                <p class="fs-3 ">KEY FEATURES :</p>
+                                <ul class="ps-4 ">
+                                    <li>Swiss Automatic Movement</li>
+                                    <li>Bold Dial with Racing-Inspired Accents</li>
+                                    <li>Date Window for Practicality</li>
+                                    <li>Stainless Steel Case and Bracelet</li>
+                                    <li>Deployment Clasp for Easy Wear</li>
+                                </ul>
+
+                                <button class="btn btn-outline-info fs-5 w-100 rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#prod-7"> SHOW MORE </button>
+
+                                <button class="btn btn-outline-info w-100 my-4 fs-5 rounded-pill">ADD TO CART</button>
+
+                                <a href="assets/images/car (2)-min.png"
+                                    class="btn btn-outline-info w-100 fs-5 rounded-pill"
+                                    download="Emrald heritage">DOWNLOAD
+                                    IMAGE</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="prod-7" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content prod-modal">
+                                <button class="btn-close end-0 position-fixed mt-4 me-4"
+                                    data-bs-dismiss="modal"></button>
+                                <div class="modal-header justify-content-center border-0">
+                                    <h2 class="modal-title text-success display-2 ">EMRALD HERITAGE</h2>
+                                </div>
+
+                                <div class="modal-body ">
+
+                                    <img src="assets/images/car (2)-min.png" alt="space-3"
+                                        class=" object-fit-contain m-auto">
+
+                                    <a href="assets/images/car (2)-min.png" class="btn btn-outline-info w-100 my-3 fs-4"
+                                        download="Stellar Odyssey">Download Image</a>
+
+                                    <div class="pe-5 text-white">
+
+                                        <h3 class="fw-light text-info">Design Inspiration:</h3>
+                                        <p class="text-justify fs-4 mb-4">The Supercar Heritage Automatic draws
+                                            inspiration
+                                            from the heritage and legacy of hypercars. The dial design takes cues from
+                                            racing instrument clusters and the striking aesthetics of classic supercars.
+                                        </p>
+
+                                        <h3 class="fw-normal fs-3 text-danger">Key Features:</h3>
+                                        <ul class="fs-3 ">
+                                            <li>Swiss Automatic Movement</li>
+                                            <li>Bold Dial with Racing-Inspired Accents</li>
+                                            <li>Date Window for Practicality</li>
+                                            <li>Stainless Steel Case and Bracelet</li>
+                                            <li>Deployment Clasp for Easy Wear</li>
+                                        </ul>
+
+                                        <h3 class="fw-light text-warning">Crafting Process:</h3>
+                                        <p class="text-justify fs-4 mb-4">Meticulously engineered, each Supercar
+                                            Heritage
+                                            Automatic is crafted with attention to detail. The precision movement
+                                            ensures
+                                            accurate timekeeping, while the stainless steel case and bracelet provide
+                                            lasting quality.
+                                        </p>
+
+                                        <h3 class="fw-light text-info">Limited Edition:</h3>
+                                        <p class="text-justify fs-4 mb-4">This watch is part of a limited edition
+                                            series,
+                                            with only 1000 pieces available globally. Each piece is engraved with a
+                                            unique
+                                            serial number.
+                                        </p>
+                                        <h4 class="text-info mb-0 pe-3 fs-3">PRICE: 64999$</h4>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="modal-footer border-0">
+                                    <button class="btn btn-outline-info fs-5  ">ADD TO CART</button>
+                                    <button type="button" class="me-4 btn btn-outline-danger fs-5  "
+                                        data-bs-dismiss="modal">CLOSE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- hypercar-4 -->
+                    <div class="col-xl-3 col-sm-6 mb-3 mb-sm-0" >
+
+                        <div class="prod rounded-4 border-opacity-25 position-relative h-100">
+
+                            <!-- front -->
+                            <div class="pro-front">
+                                <h2 class="text-center prod-h fw-light text-uppercase fs-1 pt-3">TurboX Dual</h2>
+                                <img src="assets/images/car (4)-min.png" alt="" class="img-fluid p-3">
+
+                                <div class="des text-white fs-4 px-2 text-center">
+                                    <h4 class="text-success-subtle fs-3 fw-normal text-uppercase text-primary">Model :
+                                        TXGMT-2025</h4>
+
+                                    <p class="">Experience the thrill of hypercar performance with the TurboX Dual Time
+                                        GMT
+                                        - a watch that adapts to your lifestyle.
+                                    </p>
+
+                                    <p class=" text-opacity-75 w-75 mx-auto mb-0 pb-3"><span class="text-warning ">
+                                            Limited
+                                            Edition</span>: A Tribute to the <span class="text-primary">Hypercar
+                                            Designers</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- hover -->
+                            <div
+                                class="pro-more position-absolute d-flex flex-column justify-content-evenly rounded-4 top-0 start-0 h-100 w-100 p-3 text-white fs-5">
+                                <h2 class="text-center text-primary fw-light fs-1">TurboX Dual</h2>
+                                <h3 class="text-center text-warning text-uppercase fw-light fs-3">Model : TXGMT-2025
+                                </h3>
+                                <p class="fs-3 ">KEY FEATURES :</p>
+                                <ul class="ps-4 ">
+                                    <li>Swiss GMT Movement for Dual Time Zones</li>
+                                    <li>Dynamic Dial with Racing-Inspired Accents</li>
+                                    <li>Unidirectional Rotating Bezel for GMT Reference</li>
+                                    <li>Stainless Steel Bracelet for Durability</li>
+                                    <li>Secure Deployment Clasp for Easy Wear</li>
+                                </ul>
+
+                                <button class="btn btn-outline-info fs-5 w-100 rounded-pill" data-bs-toggle="modal"
+                                    data-bs-target="#prod-8"> SHOW MORE </button>
+
+                                <button class="btn btn-outline-info w-100 my-4 fs-5 rounded-pill">ADD TO CART</button>
+
+                                <a href="assets/images/car (4)-min.png "
+                                    class="btn btn-outline-info w-100 fs-5 rounded-pill"
+                                    download="Galaxia Explorer">DOWNLOAD IMAGE</a>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="prod-8" tabindex="-1" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content prod-modal">
+                                <button class="btn-close end-0 position-fixed mt-4 me-4"
+                                    data-bs-dismiss="modal"></button>
+                                <div class="modal-header justify-content-center border-0">
+                                    <h2 class="modal-title text-danger  display-2 ">TurboX DUAL</h2>
+                                </div>
+
+                                <div class="modal-body ">
+
+                                    <img src="assets/images/car (4)-min.png" alt="space-3"
+                                        class=" object-fit-contain m-auto">
+
+                                    <a href="assets/images/car (4)-min.png" class="btn btn-outline-info w-100 my-3 fs-4"
+                                        download="Stellar Odyssey">Download Image</a>
+
+                                    <div class="pe-5 text-white">
+
+                                        <h3 class="fw-light text-info">Design Inspiration:</h3>
+                                        <p class="text-justify fs-4 mb-4">The TurboX Dual Time GMT draws inspiration
+                                            from
+                                            the dynamic lines, turbocharged engines, and global reach of hypercars. The
+                                            GMT
+                                            function reflects the high-paced lifestyles of those who seek adventure.
+                                        </p>
+
+                                        <h3 class="fw-normal fs-3 text-danger">Key Features:</h3>
+                                        <ul class="fs-3 ">
+                                            <li>Swiss GMT Movement for Dual Time Zones</li>
+                                            <li>Dynamic Dial with Racing-Inspired Accents</li>
+                                            <li>Unidirectional Rotating Bezel for GMT Reference</li>
+                                            <li>Stainless Steel Bracelet for Durability</li>
+                                            <li>Secure Deployment Clasp for Easy Wear</li>
+                                        </ul>
+
+                                        <h3 class="fw-light text-warning">Crafting Process:</h3>
+                                        <p class="text-justify fs-4 mb-4">Our skilled artisans painstakingly recreate
+                                            the
+                                            intricate patterns of nebulae using a combination of hand-painted techniques
+                                            and
+                                            precision printing. The stainless steel case is meticulously brushed to
+                                            achieve
+                                            a unique celestial texture.
+
+                                        </p>
+
+                                        <h3 class="fw-light text-info">Limited Edition:</h3>
+                                        <p class="text-justify fs-4 mb-4">Expertly crafted, each TurboX Dual Time GMT
+                                            undergoes rigorous testing to ensure accurate timekeeping and functionality.
+                                            The
+                                            durable stainless steel construction ensures resilience in every journey.
+                                        </p>
+                                        <h4 class="text-info mb-0 pe-3 fs-3">PRICE: 22999$</h4>
+                                    </div>
+                                </div>
+
+                                <div class="modal-footer border-0">
+                                    <button class="btn btn-outline-info fs-5  ">ADD TO CART</button>
+                                    <button type="button" class="me-4 btn btn-outline-danger fs-5  "
+                                        data-bs-dismiss="modal">CLOSE</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="w-100 d-flex justify-content-center mt-sm-5">
+                <a href="store.html" class="sh-mr fs-1 rounded-pill px-3 p-2 hover-g">SHOW MORE</a>
+            </div>
+
+        </section>
+
+        <!-- BLOGS -->
+        <section class="blogs" id="blogs">
+
+            <!-- heading -->
+            <h2 class="text-center mb-0 display-1 f-lpurple ls-2 mt-sm-5" >BLOGS AND NEWS</h2>
+            <p class="text-center f-lblue fs-1 ls-2 fw-lighter mb-5" >GET UPDATED ABOUT OUR COMPANY</p>
+
+            <div class="container-xxl mt-sm-4 px-lg-4">
+
+                <div class="row my-5 rounded-4 hover-g" >
+                    <div class="col-lg-5 p-0">
+                        <img src="assets/images/news (6)-min.png" alt="news-1"
+                            class="img-fluid object-fit-cover h-100 px-4 px-lg-0">
+                    </div>
+                    <div class="col-lg-7 p-0 d-flex px-4 py-3 flex-column justify-content-between align-items-start">
+                        <h3 class="text-warning display-6 ">"GRIM Unveils New Collection Inspired by Modern
+                            Architecture"</h3>
+                        <h5 class="fs-3 text-white fw-light pb-4">10th October 2021</h5>
+                        <p class="text-justify fs-3 text-white fw-normal">GRIM, the renowned luxury watch brand, has
+                            unveiled its latest collection, drawing inspiration from the sleek lines and innovative
+                            designs of modern architecture. This collection features timepieces that seamlessly blend
+                            the elegance of watchmaking with the bold aesthetics of contemporary structures. Each watch
+                            captures the essence of iconic buildings and urban landscapes, making a statement on the
+                            wrist while celebrating the fusion of art and engineering.</p>
+                        <a href="javascript:void(0);" class="btn-outline-light btn fs-5 px-5">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="row my-5 rounded-4 hover-g" >
+                    <div class="col-lg-5 p-0 order-0 order-lg-1">
+                        <img src="assets/images/news (5)-min.png" alt="news-1"
+                            class="img-fluid object-fit-cover h-100 px-4 px-lg-0">
+                    </div>
+                    <div
+                        class="col-lg-7 p-0 order-1 order-lg-0  d-flex px-4 py-3 flex-column justify-content-between align-items-start">
+                        <h3 class="text-warning display-6 ">"GRIM Collaborates with Renowned Artisan for Limited Edition
+                            Masterpiece"</h3>
+                        <h5 class="fs-3 text-white fw-light pb-4">9th September 2022</h5>
+                        <p class="text-justify fs-3 text-white fw-normal">GRIM has announced an exciting collaboration
+                            with
+                            a renowned artisan to create a limited edition masterpiece that transcends horology. The
+                            collaboration will bring together the artisan's exceptional craftsmanship and GRIM's
+                            expertise
+                            in luxury watchmaking. This exclusive timepiece is set to be a celebration of creativity,
+                            innovation, and the boundless possibilities when artistry meets precision.</p>
+                        <a href="javascript:void(0);" class="btn btn-outline-light fs-5 px-5">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="row my-5 rounded-4 hover-g" >
+                    <div class="col-lg-5 p-0">
+                        <img src="assets/images/news (2)-min.png" alt="news-1"
+                            class="img-fluid object-fit-cover h-100 px-4 px-lg-0">
+                    </div>
+                    <div class="col-lg-7 p-0 d-flex px-4 py-3 flex-column justify-content-between align-items-start">
+                        <h3 class="text-warning display-6 ">"GRIM Named Finalist for Prestigious Design Award"</h3>
+                        <h5 class="fs-3 text-white fw-light pb-4">16th October 2022</h5>
+                        <p class="text-justify fs-3 text-white fw-normal">GRIM has been named a finalist for the
+                            esteemed
+                            [Award Name] in recognition of its exceptional design prowess and unique approach to luxury
+                            watches. This nomination further solidifies GRIM's reputation as a trailblazer in the world
+                            of
+                            horology, celebrating its commitment to pushing boundaries and redefining traditional watch
+                            design.</p>
+                        <a href="javascript:void(0);" class="btn btn-outline-light fs-5 px-5">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="row my-5 rounded-4 hover-g" >
+                    <div class="col-lg-5 p-0 order-0 order-lg-1">
+                        <img src="assets/images/news (3)-min.png" alt="news-1"
+                            class="img-fluid object-fit-cover h-100 px-4 px-lg-0">
+                    </div>
+                    <div
+                        class="col-lg-7 p-0 order-1 order-lg-0  d-flex px-4 py-3 flex-column justify-content-between align-items-start">
+                        <h3 class="text-warning display-6 ">"GRIM Launches Sustainable Initiatives in Watchmaking"</h3>
+                        <h5 class="fs-3 text-white fw-light pb-4">2nd February 2023</h5>
+                        <p class="text-justify fs-3 text-white fw-normal">GRIM has taken significant strides towards
+                            sustainable watchmaking by introducing innovative practices that reduce its environmental
+                            footprint. The brand's commitment to responsible sourcing of materials, reduced waste
+                            production, and ethical manufacturing processes showcases its dedication to preserving both
+                            artistry and the planet. GRIM's sustainable initiatives underscore its role as a progressive
+                            and
+                            socially conscious luxury watch brand.</p>
+                        <a href="javascript:void(0);" class="btn btn-outline-light fs-5 px-5">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="row my-5 rounded-4 hover-g" >
+                    <div class="col-lg-5 p-0">
+                        <img src="assets/images/news (1)-min.png" alt="news-1"
+                            class="img-fluid object-fit-cover h-100 px-4 px-lg-0">
+                    </div>
+                    <div class="col-lg-7 p-0  d-flex px-4 py-3 flex-column justify-content-between align-items-start">
+                        <h3 class="text-warning display-6 ">"GRIM Celebrates Anniversary with Limited Edition Heritage
+                            Collection"</h3>
+                        <h5 class="fs-3 text-white fw-light pb-4">23rd March 2022</h5>
+                        <p class="text-justify fs-3 text-white fw-normal">In celebration of a milestone anniversary,
+                            GRIM
+                            has unveiled a Limited Edition Heritage Collection that pays homage to the brand's journey
+                            and
+                            heritage. This collection revisits classic design elements from GRIM's early years while
+                            infusing them with modern sophistication. Each watch is a tribute to the brand's legacy,
+                            reflecting its evolution and continued dedication to excellence.</p>
+                        <a href="javascript:void(0);" class="btn btn-outline-light fs-5 px-5">READ MORE</a>
+                    </div>
+                </div>
+
+                <div class="row my-5 rounded-4 hover-g" >
+                    <div class="col-lg-5 p-0 order-0 order-lg-1">
+                        <img src="assets/images/news (4)-min.png" alt="news-1"
+                            class="img-fluid object-fit-cover h-100 px-4 px-lg-0">
+                    </div>
+                    <div
+                        class="col-lg-7 p-0 order-1 order-lg-0  d-flex px-4 py-3 flex-column justify-content-between align-items-start">
+                        <h3 class="text-warning display-6 "> "GRIM Hosts Global Charity Auction for a Noble Cause"</h3>
+                        <h5 class="fs-3 text-white fw-light pb-4">25th August 2023</h5>
+                        <p class="text-justify fs-3 text-white fw-normal">GRIM has demonstrated its commitment to social
+                            impact by hosting a global charity auction featuring an exclusive, one-of-a-kind timepiece.
+                            The
+                            auction aims to raise funds for a noble cause, exemplifying GRIM's belief in using its
+                            influence
+                            and craftsmanship to make a positive difference in the world. Watch enthusiasts and
+                            collectors
+                            from around the globe have an opportunity to acquire a unique work of art while contributing
+                            to
+                            a meaningful cause.</p>
+                        <a href="javascript:void(0);" class="btn btn-outline-light fs-5 px-5">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- gallery -->
+        <section class="gallery" id="gallery">
+
+            <!-- heading -->
+            <h2 class="text-center mb-0 display-1 gal-h f-lpurple" >GALLERY</h2>
+            <p class="text-center f-lblue fs-1 fw-lighter ls-2 mb-5" >SHOWCASE OF OUR CREATIONS</p>
+
+            <div class="container-xxl pt-5">
+                <div class="row">
+                    <!-- row 1 -->
+                    <div class="col-lg-9 pb-4 gal-down" >
+                        <video src="assets/videos/bugatti.mp4" autoplay muted loop
+                            class="border object-fit-cover h-100 w-100 rounded-5"></video>
+                        <a href="assets/videos/bugatti.mp4" download="Bugatti watch Jacob & CO"
+                            class="position-absolute"><i class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <div class="col-lg-3 d-md-none d-lg-flex pb-4 gal-down" >
+                        <img src="assets/images/g-1.png" alt="" class="border img-fluid object-fit-cover rounded-5 ">
+                        <a href="assets/images/g-1.png" download="Grim watch" class="position-absolute"><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <!-- row 2 -->
+                    <div class="col-lg-3 col-md-6 pb-4 gal-down" >
+                        <img src="assets/images/gall (2).png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/gall (2).png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pb-4 gal-down" >
+                        <img src="assets/images/gall (5).png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/gall (5).png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pb-4 gal-down" >
+                        <img src="assets/images/gall (9).png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/gall (9).png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pb-4 gal-down" >
+                        <img src="assets/images/gall (10).png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/gall (10).png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <!-- row 3 -->
+                    <div class="col-lg-6 pb-4 gal-down" >
+                        <img src="https://cdn.midjourney.com/74a59f23-0f97-4a8f-8d5b-8d3425cc3a7f/0_2.png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="https://cdn.midjourney.com/74a59f23-0f97-4a8f-8d5b-8d3425cc3a7f/0_2.png"
+                            download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <div class="col-lg-6 pb-4 gal-down" >
+                        <img src="https://cdn.midjourney.com/6080d7d4-9b43-4391-92c9-f28e651141b0/0_1.png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="https://cdn.midjourney.com/6080d7d4-9b43-4391-92c9-f28e651141b0/0_1.png"
+                            download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <!-- row 4 -->
+                    <div class="col-lg-3 col-md-6 pb-4 gal-down" >
+                        <img src="assets/images/car (2)-min.png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/car (2)-min.png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pb-4 gal-down" >
+                        <img src="assets/images/gall (1).png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/gall (1).png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pb-4 gal-down" >
+                        <img src="assets/images/gall (8).png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/gall (8).png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6 pb-4 gal-down" >
+                        <img src="assets/images/gall (4).png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/gall (4).png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                    <!-- row 5 -->
+                    <div class="col-lg-12 pb-4 gal-down" >
+                        <img src="assets/images/gall-car (2).png" alt=""
+                            class="border img-fluid object-fit-cover rounded-5">
+                        <a href="assets/images/gall-car (2).png" download="Grim watch" class="position-absolute "><i
+                                class="bi bi-download gal-icon position-absolute "></i></a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- faq -->
+        <section class="faq my-sm-5" id="faq">
+
+            <!-- heading -->
+            <h2 class="text-center mb-0 display-1 gal-h f-lpurple" >FAQ'S</h2>
+            <p class="text-center f-lblue fs-1 fw-lighter ls-2 mb-5 text-uppercase " >Answers to Your Queries</p>
+
+            <div class="container-xxl">
+                <div class="accordion" id="accordionExample">
+
+                    <div class="accordion accordion-flush" id="accordiongrim">
+
+                        <div class="accordion-item bg-transparent border rounded-4 overflow-hidden my-4" >
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button collapsed fs-1 bg-transparent f-lpurple border-bottom"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#ac1" aria-expanded="false"
+                                    aria-controls="ac1">
+                                    What sets GRIM watches apart from other luxury watch brands?
+                                </button>
+                            </h2>
+                            <div id="ac1" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white fs-2 fw-light">At GRIM, we pride ourselves on our commitment to
+                                        unique and innovative design. Our watches are inspired by a fusion of artistic
+                                        creativity and precision engineering, resulting in timepieces that stand out for
+                                        their distinctive aesthetics and exceptional craftsmanship. Each GRIM watch
+                                        tells a
+                                        story and embodies our dedication to pushing the boundaries of horology.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item bg-transparent border rounded-4 overflow-hidden my-4" >
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button collapsed fs-1 bg-transparent f-lblue border-bottom"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#ac2" aria-expanded="false"
+                                    aria-controls="ac2">
+                                    Are GRIM watches limited edition?
+                                </button>
+                            </h2>
+                            <div id="ac2" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white fs-2 fw-light">Yes, many of our watch collections are released
+                                        in
+                                        limited quantities to ensure their exclusivity. Limited edition watches from
+                                        GRIM
+                                        are numbered and accompanied by certificates of authenticity, making them highly
+                                        sought after by collectors and enthusiasts alike.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item bg-transparent border rounded-4 overflow-hidden my-4" >
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button collapsed fs-1 bg-transparent f-lpurple border-bottom"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#ac3" aria-expanded="false"
+                                    aria-controls="ac3">
+                                    Can I customize my GRIM watch?
+                                </button>
+                            </h2>
+                            <div id="ac3" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white fs-2 fw-light">Absolutely! We offer customization options for
+                                        certain models, allowing you to personalize your watch to match your style and
+                                        preferences. You can choose from options such as strap materials, dial colors,
+                                        and
+                                        even engravings to create a watch that's uniquely yours.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item bg-transparent border rounded-4 overflow-hidden my-4" >
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button collapsed fs-1 bg-transparent f-lblue border-bottom"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#ac4" aria-expanded="false"
+                                    aria-controls="ac4">
+                                    What materials are used in GRIM watches?
+                                </button>
+                            </h2>
+                            <div id="ac4" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white fs-2 fw-light">We believe in using only the finest materials to
+                                        craft our timepieces. Our watches often feature high-quality materials such as
+                                        stainless steel, titanium, precious metals, sapphire crystal, and genuine
+                                        leather.
+                                        We also explore innovative materials to ensure that our watches are not only
+                                        elegant
+                                        but also built to last.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item bg-transparent border rounded-4 overflow-hidden my-4" >
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button collapsed fs-1 bg-transparent f-lpurple border-bottom"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#ac5" aria-expanded="false"
+                                    aria-controls="ac5">
+                                    How can I be sure of the authenticity of my GRIM watch?
+                                </button>
+                            </h2>
+                            <div id="ac5" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white fs-2 fw-light">Every GRIM watch comes with a unique serial
+                                        number
+                                        and a certificate of authenticity. You can also purchase directly from our
+                                        authorized dealers or our official website to ensure that you're getting a
+                                        genuine
+                                        GRIM timepiece.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item bg-transparent border rounded-4 overflow-hidden my-4" >
+                            <h2 class="accordion-header ">
+                                <button class="accordion-button collapsed fs-1 bg-transparent f-lblue border-bottom"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#ac6" aria-expanded="false"
+                                    aria-controls="ac6">
+                                    Do GRIM watches come with a warranty?
+                                </button>
+                            </h2>
+                            <div id="ac6" class="accordion-collapse collapse " data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p class="text-white fs-2 fw-light">Yes, we provide a warranty on all our watches to
+                                        give you peace of mind. The warranty covers manufacturing defects and ensures
+                                        that
+                                        your watch is protected against any issues that may arise. Please refer to the
+                                        warranty information included with your watch for more details.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <!-- contact us -->
+        <section class="contact" id="contact">
+
+            <!-- heading -->
+            <h2 class="text-center mb-0 display-1 gal-h f-lpurple" >CONTACT US</h2>
+            <p class="text-center f-lblue fs-1 fw-lighter mb-5 text-uppercase " >We're Here to Assist You</p>
+
+            <div class="container-xxl con-bg rounded-4 overflow-hidden" >
+                <div class="row blur-5">
+                    <div class="col-md-5">
+                        <div class="p-4">
+                            <!-- heading -->
+                            <h3 class="text-center text-warning display-5 text-uppercase mb-0">Connect with GRIM Watches
+                            </h3>
+                            <p class="text-center fs-3 fw-light text-white mb-5">
+                                Reach Out for Inquiries, Support, and More
+                            </p>
+                            <!-- business hours -->
+                            <h4 class="text-primary-emphasis fs-2 mb-3">Business Hours:</h4>
+                            <p class="text-white fs-4 mb-0">Monday - Friday: 9:00 AM - 6:00 PM (GMT)</p>
+                            <p class="text-white fs-4">Saturday - Sunday: Closed</p>
+                            <!-- social links -->
+                            <h4 class="text-primary-emphasis fs-2 mt-4">Follow Us On Our Socials</h4>
+                            <div
+                                class="d-flex flex-wrap social-links text-light-emphasis align-items-center justify-content-between fs-2 my-4">
+                                <i class="bi bi-instagram bg-black bg-gradient rounded-circle p-3 py-2 border "></i>
+                                <i class="bi bi-youtube bg-black bg-gradient rounded-circle p-3 py-2 border "></i>
+                                <i class="bi bi-twitter bg-black bg-gradient rounded-circle p-3 py-2 border "></i>
+                                <i class="bi bi-facebook bg-black bg-gradient rounded-circle p-3 py-2 border "></i>
+                                <i class="bi bi-pinterest bg-black bg-gradient rounded-circle p-3 py-2 border "></i>
+                            </div>
+                            <p class="text-justify fs-3 text-white">As you depart from our digital showroom, remember
+                                that
+                                time is the ultimate luxury. Embrace every moment with GRIM Watches, where innovation
+                                meets
+                                elegance.</p>
+                            <h4 class="display-5 text-center text-white py-4">THANK YOU FOR VISITING OUR VIRTUAL
+                                SHOWROOM!
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="col-md-7">
+                        <form action="" method="get" class="p-4">
+                            <div class="mb-3">
+                                <label for="FormControlInput1" class="form-label fs-2 text-white fw-light">Full
+                                    Name</label>
+                                <input type="text"
+                                    class="form-control form-control-lg con-em py-3 bg-black bg-gradient text-white fs-3"
+                                    id="FormControlInput1" placeholder="PLease Enter Your Name*">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="FormControlInput3" class="form-label fs-2 text-white fw-light">Contact
+                                    Number</label>
+                                <input type="number"
+                                    class="form-control form-control-lg con-em py-3 bg-black  bg-gradient fs-3"
+                                    id="FormControlInput3" placeholder="Please Enter Your Number*">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="FormControlInput2" class="form-label fs-2 text-white fw-light">Email
+                                    address</label>
+                                <input type="email"
+                                    class="form-control form-control-lg con-em py-3 bg-black bg-gradient text-white fs-3"
+                                    id="FormControlInput2" placeholder="name@example.com">
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="FormControlTextarea1" class="form-label fs-2 text-white fw-light">Short
+                                    Summary</label>
+                                <textarea class="form-control bg-black bg-gradient fs-3 text-white"
+                                    id="FormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <button type="submit"
+                                class="btn bg-black bg-gradient text-white border border-dark-subtle w-100 rounded-2 my-3 fs-4">SEND
+                                MESSAGE</button>
+                        </form>
+                    </div>
+                    <div class="col-12">
+                        <h4 class="text-center display-5 text-white pb-4">OUR LOCATION <i
+                                class="bi bi-pin-map px-2"></i>
+                        </h4>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3719.999624362679!2d72.78488427505256!3d21.192173882146136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be04d2403add307%3A0xf35b4d4c94ae114!2sRed%20%26%20White%20Multimedia%20Education%20-%20Adajan!5e0!3m2!1sen!2sin!4v1692982768030!5m2!1sen!2sin"
+                            width="100%" height="500" style="border:0; filter: invert(0);"
+                            allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"
+                            class="rounded-bottom-4"></iframe>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+    <!-- footer -->
+    <footer class="my-5" >
+        <div class="container-xxl">
+            <h3 class="text-white text-center fs-3 fw-light">"All rights reserved to <span
+                    class="text-uppercase fw-normal text-info ">Rudra Patel</span>, the visionary developer behind this
+                digital
+                masterpiece. The artistry of design and functionality is a testament to his skill and dedication.
+                Copyright © [2023] Rudra Patel. Unauthorized use <span class="text-danger fw-normal">prohibited</span>."
+            </h3>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jQuery.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

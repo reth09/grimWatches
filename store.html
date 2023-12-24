@@ -1,0 +1,1825 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GRIM STORE</title>
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <!-- icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- media -->
+    <link rel="stylesheet" href="assets/css/media.css">
+
+</head>
+
+<body data-bs-theme="dark">
+
+    <!-- background -->
+    <img src="assets/images/bg-rock-1.png" alt="bg-rock-1" class="bg-rock">
+    <div id="particles-js"></div>
+
+    <!-- header -->
+    <header class="mt-3 position-sticky top-0 z-3">
+        <nav class="navbar container-xxl bg-transparent navbar-expand-lg rounded-4
+            ">
+            <div class="container-fluid bg-transparent py-2 px-4">
+
+                <a class="navbar-brand fs-3 ls-2 text-white" href="index.html">GRIM</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-evenly flex-wrap" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="index.html#home1">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="index.html#aboutus">about us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="index.html">collection</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="index.html#blogs">blogs</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="index.html#gallery">gallery</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize" href="index.html#contact">contact
+                                us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link px-lg-4 fs-4 ls-1 text-capitalize text-white" href="store.html">STORE</a>
+                        </li>
+                    </ul>
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-3 bg-transparent fs-5 " type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-light me-3" type="submit">Search</button>
+                    </form>
+
+                    <ul class="navbar-nav mt-4 mt-lg-0">
+                        <li>
+                            <a href="#javascript:void(0);">
+                                <span class="fw-light text-white ls-2 fs-5 " data-bs-toggle="modal"
+                                    data-bs-target="#wishlist-modal">
+                                    <i class="bi pe-1 bi-heart"></i>
+                                    WHISHLIST
+                                </span>
+                            </a>
+                        </li>
+                        <li class="my-3 my-lg-0">
+                            <a href="#javascript:void(0);" data-bs-target="#cart-off" data-bs-toggle="offcanvas">
+                                <span class="px-lg-4 fw-light text-white ls-2 fs-5">
+                                    <i class="bi pe-1 bi-basket3"></i> CART
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#javascript:void(0);" data-bs-target="#account-modal" data-bs-toggle="modal">
+                                <span class="fw-light text-white ls-2 fs-5 "><i class="bi pe-1 bi-person-circle"></i>
+                                    ACCOUNT
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+        <!-- wishlist -->
+        <div class="modal fade" id="wishlist-modal" tabindex="-1" aria-labelledby="wis" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+                <div class="modal-content bg-transparent blur-5 border-cst rounded-4">
+                    <div class="modal-header border-0 ">
+                        <h1 class="modal-title fs-2 ls-1 fw-light f-lpurple" id="wishlist-modal">WISH-LIST</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body scroll-5 p-4 pt-0">
+                        <h3 class="text-center fw-light h1 f-lblue ls-1 text-uppercase">Your Personal Watch Wishlist</h3>
+    
+                        <div class="row my-4">
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">Velocity GT</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : VGT-2022</h4>
+                                    <img src="assets/images/car (1)-min.png" alt="" class="img-fluid rounded-top-4">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">TurboX Dual</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : TXGMT-2025</h4>
+                                    <img src="assets/images/car (4)-min.png" alt="" class="img-fluid rounded-top-4">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">Emrald Heritage</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : SHA-2024</h4>
+                                    <img src="assets/images/car (2)-min.png" alt="" class="img-fluid rounded-top-4">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">CLASSIC ELEGANCE</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : CE-2022</h4>
+                                    <img src="assets/images/p (10)-min.png" alt="" class="img-fluid">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">HERITAGE CHRONO</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : HC-2022</h4>
+                                    <img src="assets/images/p (11)-min.png" alt="" class="img-fluid">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">ANTIQUE LEGACY</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : AL-2022</h4>
+                                    <img src="assets/images/p (13)-min.png" alt="" class="img-fluid">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">GALAXIA EXPLORER</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : GE-2023</h4>
+                                    <img src="assets/images/gall (9).png" alt="" class="img-fluid">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">RUBY ROYALE</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : RR - 2023</h4>
+                                    <img src="assets/images/p (7)-min.png" alt="" class="img-fluid">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-lg-4 mb-3">
+                                <div class="border-cst rounded-4 px-2">
+                                    <h3 class="text-center h2 fw-light f-lpurple">NOVA ACCELERATOR</h3>
+                                    <h4 class="text-center h5 fw-light text-info">MODEL : NA-2023</h4>
+                                    <img src="assets/images/car (1)-min.png" alt="" class="img-fluid">
+                                    <div class="d-flex justify-content-between align-content-center py-3">
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">ADD TO CART</a>
+                                        <a href="javascript:void(0);" class="btn btn-outline-info">BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                    <div class="modal-footer border-0 px-4 ">
+                        <button type="button" class="btn btn-outline-light fs-5 px-4 me-2">Order All</button>
+                        <button type="button" class="btn btn-outline-light fs-5 px-4" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <!-- cart -->
+    <div class="offcanvas offcanvas-end bg-transparent blur-5 border-start border-dark-subtle" data-bs-scroll="true"
+        tabindex="-1" id="cart-off" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title fs-1 fw-light ls-2 f-lpurple" id="cart-off">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <h2 class="text-uppercase fw-light f-lblue mb-4">Your GRIM Cart : Time to <span
+                    class="text-warning">Shine</span></h2>
+            <div class="d-flex flex-column justify-content-between h-100">
+                <!-- products -->
+                <div class="upper">
+                    <div class="cart-p1 row mx-2 rounded-3 my-4 border-bottom overflow-hidden ">
+                        <div class="col-4 p-0">
+                            <img src="assets/images/car (1)-min.png" alt=""
+                                class="img-fluid my-auto d-block h-100 object-fit-cover">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="fw-light f-lpurple mb-0">Velocity GT</h3>
+                            <p class="fs-5 text-white mb-0">supercar engine collection</p>
+                            <p class="fs-6 text-white mb-0">CASE SIZE : 47 mm</p>
+                            <p class="fs-5 ls-1 text-white mb-0">PRICE : $ 120,000</p>
+                        </div>
+                    </div>
+                    <div class="cart-p1 row mx-2 rounded-3 my-4 border-bottom overflow-hidden ">
+                        <div class="col-4 p-0">
+                            <img src="assets/images/p (11)-min.png" alt=""
+                                class="img-fluid my-auto d-block h-100 object-fit-cover">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="fw-light f-lpurple mb-0">Heritage Chrono</h3>
+                            <p class="fs-5 text-white mb-0">heritage collection</p>
+                            <p class="fs-6 text-white mb-0">CASE SIZE : 40 mm</p>
+                            <p class="fs-5 ls-1 text-white mb-0">PRICE : $ 78,000</p>
+                        </div>
+                    </div>
+                    <div class="cart-p1 row mx-2 rounded-3 my-4 border-bottom overflow-hidden ">
+                        <div class="col-4 p-0">
+                            <img src="assets/images/space-1-min.png" alt=""
+                                class="img-fluid my-auto d-block h-100 object-fit-cover">
+                        </div>
+                        <div class="col-8">
+                            <h3 class="fw-light f-lpurple mb-0">Nebula Voyager</h3>
+                            <p class="fs-5 text-white mb-0">Space Traveller Collection</p>
+                            <p class="fs-6 text-white mb-0">CASE SIZE : 44 mm</p>
+                            <p class="fs-5 ls-1 text-white mb-0">PRICE : $ 20,000</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- checkout -->
+                <div class="lower">
+                    <div class="d-flex justify-content-between align-items-center text-white fs-3 py-1">
+                        <h3 class="mb-0 fw-normal">SUB - TOTAL :</h3>
+                        <p class="mb-0">$ 218,000 <span class="fs-6">INC. Taxes</span></p>
+                    </div>
+                    <div class="d-flex justify-content-between align-items-center text-white fs-3 py-1">
+                        <h3 class="mb-0 fw-normal">SHIPPING :</h3>
+                        <p class="mb-0">FREE</p>
+                    </div>
+                    <button class="btn btn-outline-light w-100 rounded-0 fs-4 ls-2">CHECKOUT</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- account -->
+    <div class="modal fade" id="account-modal" tabindex="-1" aria-labelledby="account" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable modal-dialog-centered modal-xl">
+            <div class="modal-content bg-transparent blur-5 border-cst rounded-4">
+                <div class="modal-header border-0 ">
+                    <h1 class="modal-title fs-2 ls-1 fw-light f-lpurple" id="account-modal">ACCOUNT DETAILS</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body scroll-5 p-4 pt-0">
+                    <h3 class="text-center fw-light h1 f-lblue ls-1 text-uppercase">Your Personal Information</h3>
+
+                    
+
+                    <form class="row my-4">
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-fname" class="form-label h3 fw-normal ls-1 f-lpurple">FIRST NAME</label>
+                            <input type="text" class="form-control bg-transparent fs-4 text-white" id="acc-fname">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-lname" class="form-label h3 fw-normal ls-1 f-lpurple">LAST NAME</label>
+                            <input type="text" class="form-control bg-transparent fs-4 text-white" id="acc-lname">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-email" class="form-label h3 fw-normal ls-1 f-lpurple">EMAIL</label>
+                            <input type="email" class="form-control bg-transparent fs-4 text-white" id="acc-email">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-pnumber" class="form-label h3 fw-normal ls-1 f-lpurple">PERSONAL NUMBER</label>
+                            <input type="number" class="form-control bg-transparent fs-4 text-white" id="acc-pnumber">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-onumber" class="form-label h3 fw-normal ls-1 f-lpurple">OFFICE NUMBER</label>
+                            <input type="number" class="form-control bg-transparent fs-4 text-white" id="acc-onumber">
+                        </div>
+                        <div class="col-sm-6 col-lg-4 mb-3">
+                            <label for="acc-pass" class="form-label h3 fw-normal ls-1 f-lpurple">ACCOUNT PASSWORD</label>
+                            <input type="password" class="form-control bg-transparent fs-4 text-white" id="acc-pass">
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="acc-add1" class="form-label h3 fw-normal ls-1 f-lpurple">HOME ADDRESS</label>
+                            <textarea name="add-1" id="acc-add1" class="form-control bg-transparent fs-4 text-white" rows="3"></textarea>
+                        </div>
+                        <div class="col-sm-6">
+                            <label for="acc-add2" class="form-label h3 fw-normal ls-1 f-lpurple">OFFICE ADDRESS</label>
+                            <textarea name="add-2" id="acc-add2" class="form-control bg-transparent fs-4 text-white" rows="3"></textarea>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer border-0 px-4 ">
+                    <button type="button" class="btn btn-outline-light fs-5 px-4 me-2">SAVE CHANGES</button>
+                    <button type="button" class="btn btn-outline-light fs-5 px-4" data-bs-dismiss="modal">DISCARD</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <main>
+
+        <!-- heading -->
+        <h2 class="text-center display-3 mb-0 text-uppercase text-warning mt-">Discover the GRIM Collection</h2>
+        <h5 class="text-center fs-3 fw-light f-lblue text-uppercase ls-1">Explore Luxury Watches Inspired by Innovation
+            and Elegance</h5>
+
+        <div class="container-fluid my-lg-5 py-2">
+            <div class="row">
+                <!-- aside -->
+                <div class="col col-lg-4 col-xxl-3">
+                    <div class="offcanvas-lg offcanvas-end bg-transparent top-0 border-0 blur-5" tabindex="-1"
+                        id="offcanvasResponsive" aria-labelledby="offcanvasResponsiveLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title fs-3" id="offcanvasResponsiveLabel">FILTER TAB</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                data-bs-target="#offcanvasResponsive" aria-label="Close"></button>
+                        </div>
+
+                        <div class="offcanvas-body">
+                            <div class="aside border-cst m-0 mx-xxl-5 vh-100 overflow-y-auto rounded-5 blur-5 p-3">
+                                <!-- heading -->
+                                <h5 class="text-center f-lpurple fw-light fs-2 pb-2">FILTER</h5>
+
+                                <!-- all lists -->
+                                <div class="accordion accordion-flush">
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button show bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list1"
+                                                aria-expanded="true" aria-controls="list1">
+                                                GENDER
+                                            </button>
+                                        </h2>
+                                        <div id="list1" class="accordion-collapse show">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="female">
+                                                    <label class="form-check-label" for="female">
+                                                        Women
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="male">
+                                                    <label class="form-check-label" for="male">
+                                                        Men
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button show bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list2"
+                                                aria-expanded="true" aria-controls="list2">
+                                                PRICE
+                                            </button>
+                                        </h2>
+
+                                        <div id="list2" class="accordion-collapse show">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light mb-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="p1">
+                                                    <label class="form-check-label" for="p1">
+                                                        $ 10,000 - $15,000
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light my-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="p2">
+                                                    <label class="form-check-label" for="p2">
+                                                        $ 15,000 - $30,000
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light my-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="p3">
+                                                    <label class="form-check-label" for="p3">
+                                                        $ 30,000 - $40,000
+                                                    </label>
+                                                </div>
+
+                                                <div class="form-check fs-4 ls-1 text-white fw-light my-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="p4">
+                                                    <label class="form-check-label" for="p4">
+                                                        $ 50,000 - $75,000
+                                                    </label>
+                                                </div>
+
+                                                <div class="form-check fs-4 ls-1 text-white fw-light my-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="p5">
+                                                    <label class="form-check-label" for="p5">
+                                                        $ 75,000 - $100,000
+                                                    </label>
+                                                </div>
+
+                                                <div class="form-check fs-4 ls-1 text-white fw-light my-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="p6">
+                                                    <label class="form-check-label" for="p6">
+                                                        $ 100,000 - $125,000
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light my-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="p7">
+                                                    <label class="form-check-label" for="p7">
+                                                        $ 125,000 - $150,000
+                                                    </label>
+                                                </div>
+
+                                                <div class="form-check fs-4 ls-1 text-white fw-light my-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="p8">
+                                                    <label class="form-check-label" for="p8">
+                                                        $ 150,000 - $200,000
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <form class="px-3">
+                                            <div class="row mb-3">
+                                                <div class="col">
+                                                    <input type="number"
+                                                        class="form-control rounded-0 border-white border-opacity-50 text-white fs-4 text-center bg-transparent py-1 range-ph"
+                                                        id="range-start" placeholder="$10,000">
+                                                </div>
+                                                <div class="col">
+                                                    <input type="number"
+                                                        class="form-control rounded-0 border-white border-opacity-50 text-white fs-4 text-center bg-transparent py-1 range-ph"
+                                                        id="range-end" placeholder="$20,000">
+                                                </div>
+                                            </div>
+                                            <button type="submit"
+                                                class="btn btn-outline-light pr-btn w-100 fs-5 rounded-0">APPLY</button>
+                                        </form>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0 mt-3">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list3"
+                                                aria-expanded="true" aria-controls="list3">
+                                                STOCK STATUS
+                                            </button>
+                                        </h2>
+                                        <div id="list3" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light mb-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="stockin">
+                                                    <label class="form-check-label" for="stockin">
+                                                        In Stock
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="stockout">
+                                                    <label class="form-check-label" for="stockout">
+                                                        On Special Order
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list4"
+                                                aria-expanded="true" aria-controls="list4">
+                                                COLLECTION
+                                            </button>
+                                        </h2>
+                                        <div id="list4" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check mb-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col1">
+                                                    <label class="form-check-label" for="col1">
+                                                        Eclipse Enigma
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col2">
+                                                    <label class="form-check-label" for="col2">
+                                                        Aurora Ascension
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col3">
+                                                    <label class="form-check-label" for="col3">
+                                                        Sovereign Horizon
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col4">
+                                                    <label class="form-check-label" for="col4">
+                                                        Nebula Nocturne
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col5">
+                                                    <label class="form-check-label" for="col5">
+                                                        Regal Odyssey
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col6">
+                                                    <label class="form-check-label" for="col6">
+                                                        Luminous Luminary
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col7">
+                                                    <label class="form-check-label" for="col7">
+                                                        Vortex Vanguard
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col8">
+                                                    <label class="form-check-label" for="col8">
+                                                        Celestial Chroma
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col9">
+                                                    <label class="form-check-label" for="col9">
+                                                        Cosmic Chrome
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col10">
+                                                    <label class="form-check-label" for="col10">
+                                                        Retrofuturism Speedmaster
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="col11">
+                                                    <label class="form-check-label" for="col11">
+                                                        Galactic Heritage
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list5"
+                                                aria-expanded="true" aria-controls="list5">
+                                                WATCH TYPE
+                                            </button>
+                                        </h2>
+                                        <div id="list5" class="accordion-collapse show">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light mb-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="type1">
+                                                    <label class="form-check-label" for="type1">
+                                                        Analog
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="type2">
+                                                    <label class="form-check-label" for="type2">
+                                                        Digital
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list6"
+                                                aria-expanded="true" aria-controls="list6">
+                                                STRAP MATERIAL
+                                            </button>
+                                        </h2>
+                                        <div id="list6" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light mb-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="strapl">
+                                                    <label class="form-check-label" for="strapl">
+                                                        Leather
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="straprg">
+                                                    <label class="form-check-label" for="straprg">
+                                                        Rose Gold
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="strapr">
+                                                    <label class="form-check-label" for="strapr">
+                                                        Rubber
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="straps">
+                                                    <label class="form-check-label" for="straps">
+                                                        Satin
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="strapst">
+                                                    <label class="form-check-label" for="strapst">
+                                                        Steel
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list7"
+                                                aria-expanded="true" aria-controls="list7">
+                                                CASE SIZE
+                                            </button>
+                                        </h2>
+                                        <div id="list7" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light mb-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cs-1">
+                                                    <label class="form-check-label" for="cs-1">
+                                                        35 - 37 mm
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cs-2">
+                                                    <label class="form-check-label" for="cs-2">
+                                                        38 - 40 mm
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cs-3">
+                                                    <label class="form-check-label" for="cs-3">
+                                                        41 - 43 mm
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cs-4">
+                                                    <label class="form-check-label" for="cs-4">
+                                                        44 - 46 mm
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cs-5">
+                                                    <label class="form-check-label" for="cs-5">
+                                                        47 - 50 mm
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cs-6">
+                                                    <label class="form-check-label" for="cs-6">
+                                                        > 50 mm
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list8"
+                                                aria-expanded="true" aria-controls="list8">
+                                                DIAL COLOR
+                                            </button>
+                                        </h2>
+                                        <div id="list8" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check mb-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol1">
+                                                    <label class="form-check-label" for="dcol1">
+                                                        Black
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol2">
+                                                    <label class="form-check-label" for="dcol2">
+                                                        Anthracite
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol3">
+                                                    <label class="form-check-label" for="dcol3">
+                                                        Blue
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol4">
+                                                    <label class="form-check-label" for="dcol4">
+                                                        Brown
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol5">
+                                                    <label class="form-check-label" for="dcol5">
+                                                        Champagne
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol6">
+                                                    <label class="form-check-label" for="dcol6">
+                                                        Diamond Pave
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol7">
+                                                    <label class="form-check-label" for="dcol7">
+                                                        Green
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol8">
+                                                    <label class="form-check-label" for="dcol8">
+                                                        Grey
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol9">
+                                                    <label class="form-check-label" for="dcol9">
+                                                        MOP
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol10">
+                                                    <label class="form-check-label" for="dcol10">
+                                                        Red
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="dcol11">
+                                                    <label class="form-check-label" for="dcol11">
+                                                        White
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list9"
+                                                aria-expanded="true" aria-controls="list9">
+                                                STRAP COLOR
+                                            </button>
+                                        </h2>
+                                        <div id="list9" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check mb-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol1">
+                                                    <label class="form-check-label" for="scol1">
+                                                        Black
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol2">
+                                                    <label class="form-check-label" for="scol2">
+                                                        Blue
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol3">
+                                                    <label class="form-check-label" for="scol3">
+                                                        Yellow
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol4">
+                                                    <label class="form-check-label" for="scol4">
+                                                        Brown
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol5">
+                                                    <label class="form-check-label" for="scol5">
+                                                        Purple
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol6">
+                                                    <label class="form-check-label" for="scol6">
+                                                        Silver
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol7">
+                                                    <label class="form-check-label" for="scol7">
+                                                        Green
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol8">
+                                                    <label class="form-check-label" for="scol8">
+                                                        Grey
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol9">
+                                                    <label class="form-check-label" for="scol9">
+                                                        Rose Gold
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="scol10">
+                                                    <label class="form-check-label" for="scol10">
+                                                        Violet
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list10"
+                                                aria-expanded="true" aria-controls="list10">
+                                                MOVEMENT
+                                            </button>
+                                        </h2>
+                                        <div id="list10" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light mb-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="move1">
+                                                    <label class="form-check-label" for="move1">
+                                                        Automatic
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="move2">
+                                                    <label class="form-check-label" for="move2">
+                                                        Quartz
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="move3">
+                                                    <label class="form-check-label" for="move3">
+                                                        Manual Winding
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list11"
+                                                aria-expanded="true" aria-controls="list11">
+                                                CASE SHAPE
+                                            </button>
+                                        </h2>
+                                        <div id="list11" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light mb-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="case1">
+                                                    <label class="form-check-label" for="case1">
+                                                        Rectangular
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="case2">
+                                                    <label class="form-check-label" for="case2">
+                                                        Round
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="case3">
+                                                    <label class="form-check-label" for="case3">
+                                                        Pentagon
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list12"
+                                                aria-expanded="true" aria-controls="list12">
+                                                PRECIOUS STONE
+                                            </button>
+                                        </h2>
+                                        <div id="list12" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check fs-4 ls-1 text-white fw-light mb-2">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ps1">
+                                                    <label class="form-check-label" for="ps1">
+                                                        On Bezel & Dial
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ps2">
+                                                    <label class="form-check-label" for="ps2">
+                                                        On Bezel, Dial & Lugs
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ps3">
+                                                    <label class="form-check-label" for="ps3">
+                                                        On Dial
+                                                    </label>
+                                                </div>
+                                                <div class="form-check fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ps4">
+                                                    <label class="form-check-label" for="ps4">
+                                                        On Bezel, Dial & Crown
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list13"
+                                                aria-expanded="true" aria-controls="list13">
+                                                CASE MATERIAL
+                                            </button>
+                                        </h2>
+                                        <div id="list13" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check mb-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm1">
+                                                    <label class="form-check-label" for="cm1">
+                                                        Ceramic & Rose Gold
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm2">
+                                                    <label class="form-check-label" for="cm2">
+                                                        Rose Gold
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm3">
+                                                    <label class="form-check-label" for="cm3">
+                                                        Steel
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm4">
+                                                    <label class="form-check-label" for="cm4">
+                                                        Steel & black PVD
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm5">
+                                                    <label class="form-check-label" for="cm5">
+                                                        Titanium
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm6">
+                                                    <label class="form-check-label" for="cm6">
+                                                        Titanium & Ciramic
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm7">
+                                                    <label class="form-check-label" for="cm7">
+                                                        Titanium & Rose Gold
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm8">
+                                                    <label class="form-check-label" for="cm8">
+                                                        Titanium & Rose Gold PVD
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm9">
+                                                    <label class="form-check-label" for="cm9">
+                                                        White Gold
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm10">
+                                                    <label class="form-check-label" for="cm10">
+                                                        Black Gold
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="cm11">
+                                                    <label class="form-check-label" for="cm11">
+                                                        Titanium & Black DLC
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item bg-transparent border-0">
+                                        <h2 class="accordion-header">
+                                            <button
+                                                class="accordion-button collapsed bg-transparent ls-2 fs-4 f-lpurple"
+                                                type="button" data-bs-toggle="collapse" data-bs-target="#list14"
+                                                aria-expanded="true" aria-controls="list14">
+                                                FEATURES
+                                            </button>
+                                        </h2>
+                                        <div id="list14" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <div class="form-check mb-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff1">
+                                                    <label class="form-check-label" for="ff1">
+                                                        Chronograph
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff2">
+                                                    <label class="form-check-label" for="ff2">
+                                                        Date
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff3">
+                                                    <label class="form-check-label" for="ff3">
+                                                        Date & Day
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff4">
+                                                    <label class="form-check-label" for="ff4">
+                                                        Fly Tourbillon
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff5">
+                                                    <label class="form-check-label" for="ff5">
+                                                        GMT
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff6">
+                                                    <label class="form-check-label" for="ff6">
+                                                        Leap Year Indicator
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff7">
+                                                    <label class="form-check-label" for="ff7">
+                                                        Music Box
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff8">
+                                                    <label class="form-check-label" for="ff8">
+                                                        Power Reserve Indicator
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff9">
+                                                    <label class="form-check-label" for="ff9">
+                                                        Rotating Bezel
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff10">
+                                                    <label class="form-check-label" for="ff10">
+                                                        Small Seconds
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff11">
+                                                    <label class="form-check-label" for="ff11">
+                                                        Tourbillon
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff12">
+                                                    <label class="form-check-label" for="ff12">
+                                                        Month
+                                                    </label>
+                                                </div>
+                                                <div class="form-check my-2 fs-4 ls-1 text-white fw-light">
+                                                    <input class="form-check-input rounded-1" type="checkbox" value=""
+                                                        id="ff13">
+                                                    <label class="form-check-label" for="ff13">
+                                                        Rechargeable battery
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex d-lg-none justify-content-between px-4 border-cst mb-3 py-2 rounded-1 align-items-center position-sticky top-cst z-3 blur-5">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-3 bg-transparent border-cst fs-5 " type="search" placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-info border-cst f-lpurple" type="submit">Search</button>
+                    </form>
+                    <button
+                        class="btn btn-primary border-0 fs-1 ls-2 z-3 bg-transparent d-flex align-items-center filter-btn f-lpurple"
+                        type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasResponsive"
+                        aria-controls="offcanvasResponsive">FILTER <i class="bi bi-funnel fs-4 ps-2"></i></button>
+                </div>
+
+                <!-- products -->
+                <div class="col col-lg-8 col-xxl-9">
+                    <div class="row me-lg-4">
+                        <!-- 1 row -->
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (4)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Stellaris Ignite</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$64,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line px-2"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (2)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Astrorider Heritage</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$15,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (3)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Nova Accelerator</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$25,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/space-4-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Lunar Roadster</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$55,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 row -->
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (10)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Classic Elegance</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$174,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (11)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Heritage Chrono</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$120,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (12)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Retro Radiance</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$108,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (13)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Antique Legacy</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$158,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 row -->
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (6)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Crimson Legacy</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$32,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (7)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Ruby Royale</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$28,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-half-line px-2"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (8)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Scarlet Elegance</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$45,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/p (9)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Crimson Prestige</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$35,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4 row -->
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/car (1)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Velocity GT</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$198,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/car (2)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Emrald Heritage</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$165,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/car (3)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    NitroX Tourbillon</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$115,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/car (4)-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    TurboX Dual</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$95,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5 row -->
+                        <div class="col-xxl-3 col-sm-6 mb-4 mb-xxl-0" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/space-1-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Nebula Voyager</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$18,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line px-2"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4 mb-xxl-0" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/space-2-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Celestial Horizon</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$28,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4 mb-lg-0" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/space-3-min.png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Stellar Odyssey</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$32,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-line px-2"></i>
+                                    <i class="ri-star-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-3 col-sm-6 mb-4 mb-lg-0" data-aos="zoom-in-up" data-aos-duration="1000">
+                            <div class="pro-card border-cst rounded-4 overflow-hidden p-3 h-100">
+                                <div
+                                    class="d-flex justify-content-between fs-5 f-lpurple fw-light ls-1 pb-3 align-items-center">
+                                    <span>Add to WishList</span>
+                                    <i class="bi bi-bookmark-heart"></i>
+                                </div>
+                                <div class="mw-100 pro-img overflow-hidden rounded-4">
+                                    <img src="assets/images/gall (9).png" alt="product" class="img-fluid">
+                                </div>
+                                <h2 class="text-center mt-2 text-uppercase fw-normal mb-0 fs-3 ls-1 f-lblue">
+                                    Galaxia Explorer</h2>
+                                <h5 class="text-center fs-4 ls-1 text-info">$40,999</h5>
+                                <div class="d-flex align-items-center fs-3 my-3 f-lpurple justify-content-center">
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-fill"></i>
+                                    <i class="ri-star-fill px-2"></i>
+                                    <i class="ri-star-half-line"></i>
+                                </div>
+                                <div class="d-flex justify-content-between align-items-center ">
+                                    <button class="btn btn-outline-light rounded-3">Add To Cart</button>
+                                    <button class="btn btn-outline-light rounded-3">BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- footer -->
+        <footer class="my-5">
+            <div class="container-xxl">
+                <h3 class="text-white text-center fs-3 fw-light">"All rights reserved to <span
+                        class="text-uppercase fw-normal text-info ">Rudra Patel</span>, the visionary developer behind
+                    this
+                    digital
+                    masterpiece. The artistry of design and functionality is a testament to his skill and dedication.
+                    Copyright © [2023] Rudra Patel. Unauthorized use <span
+                        class="text-danger fw-normal">prohibited</span>."
+                </h3>
+            </div>
+        </footer>
+
+    </main>
+
+    <!-- script -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jQuery.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
